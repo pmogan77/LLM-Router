@@ -2,3 +2,17 @@ results_chunks_google_flan-t5-large/
 Adv/
 user-default-efs/
 .cache/
+.rustup/
+.ssh/
+.virtual_documents/
+.ipython/
+.ipynb_checkpoints/
+.jupyter/
+.keras/
+.local/
+.npm
+.sagemaker_sql_editor_api_cache/
+.bashrc
+.gitconfig
+.lesshst
+user-default-efs
