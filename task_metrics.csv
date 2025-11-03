@@ -1,0 +1,758 @@
+task_name,avg_acc,avg_latency,num_score_records,num_latency_records,model_name,category,domain
+task001_quoref_question_generation,0.17298548319437065,0.23737451750220676,130,132,google/flan-t5-large,Question Generation,Wikipedia
+task002_quoref_answer_generation,0.7728641465532057,0.1777035855885708,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task022_cosmosqa_passage_inappropriate_binary,0.7751937984496124,0.15730282225350076,129,129,google/flan-t5-large,Toxic Language Detection,Personal Narratives
+task023_cosmosqa_question_generation,0.09115842170307104,0.17272995457504736,131,132,google/flan-t5-large,Question Generation,Personal Narratives
+task024_cosmosqa_answer_generation,0.7586161791431633,0.18524090629635434,132,132,google/flan-t5-large,Question Answering,Personal Narratives
+task025_cosmosqa_incorrect_answer_generation,0.7416866939006881,0.1848139094583916,132,132,google/flan-t5-large,Wrong Candidate Generation,Personal Narratives
+task026_drop_question_generation,0.07205285851842927,0.21587555065299524,131,132,google/flan-t5-large,Question Generation,"Sports, Sports -> NFL, Wikipedia, History"
+task027_drop_answer_type_generation,0.9015151515151515,0.1675824775840297,132,132,google/flan-t5-large,Question Understanding,"Sports, Sports -> NFL, Wikipedia, History"
+task028_drop_answer_generation,0.7375938910602903,0.1981388623967315,132,132,google/flan-t5-large,Question Answering,"Sports, Sports -> NFL, Wikipedia, History"
+task043_essential_terms_answering_incomplete_questions,0.732824427480916,0.18258635473973822,131,132,google/flan-t5-large,Misc.,Natural Science
+task044_essential_terms_identifying_essential_words,0.22900763358778625,0.19839865375648846,131,132,google/flan-t5-large,Question Understanding,Natural Science
+task045_miscellaneous_sentence_paraphrasing,0.20808502381469304,0.20737847776123972,99,132,google/flan-t5-large,Paraphrasing,Natural Science
+task046_miscellaneous_question_typing,0.10687022900763359,0.1558397723869844,131,132,google/flan-t5-large,Question Understanding,"Pop Culture, Natural Science, History, Law"
+task047_miscellaneous_answering_science_questions,0.9906398486910444,0.14108178651694095,132,132,google/flan-t5-large,Question Answering,Natural Science
+task059_ropes_story_generation,0.7213189015334303,0.37885713080565137,110,132,google/flan-t5-large,Story Composition,"Wikipedia, Natural Science, School Science Textbooks"
+task060_ropes_question_generation,0.08231547017406562,0.21354124853105255,127,132,google/flan-t5-large,Question Generation,"Wikipedia, Natural Science, School Science Textbooks"
+task061_ropes_answer_generation,0.9335675111576689,0.16955478715174127,132,132,google/flan-t5-large,Question Answering,"Wikipedia, Natural Science, School Science Textbooks"
+task062_bigbench_repeat_copy_logic,0.034482758620689655,0.3172038793563843,29,29,google/flan-t5-large,Program Execution,Formal logic
+task063_first_i_elements,0.8333333333333334,0.22531920129602606,132,132,google/flan-t5-large,Program Execution,Mathematics
+task064_all_elements_except_first_i,0.9242424242424242,0.27919106004816113,132,132,google/flan-t5-large,Program Execution,Mathematics
+task065_timetravel_consistent_sentence_classification,0.9166666666666666,0.15451920077656256,132,132,google/flan-t5-large,Coherence Classification,Commonsense -> Stories
+task066_timetravel_binary_consistency_classification,0.9318181818181818,0.20452388263109958,132,132,google/flan-t5-large,Coherence Classification,Commonsense -> Stories
+task067_abductivenli_answer_generation,0.7799039543465232,0.1748951795426282,132,132,google/flan-t5-large,Story Composition,Commonsense -> Stories
+task068_abductivenli_incorrect_answer_generation,0.8401678859732533,0.1746184261459293,131,132,google/flan-t5-large,Story Composition,Commonsense -> Stories
+task069_abductivenli_classification,0.9393939393939394,0.14562852364597897,132,132,google/flan-t5-large,Coherence Classification,Commonsense -> Stories
+task070_abductivenli_incorrect_classification,0.9090909090909091,0.1624826170278318,132,132,google/flan-t5-large,Coherence Classification,Commonsense -> Stories
+task071_abductivenli_answer_generation,0.7026484062556516,0.1638605436592391,132,132,google/flan-t5-large,Story Composition,Commonsense -> Stories
+task072_abductivenli_answer_generation,0.8069317766437025,0.16580272488521808,132,132,google/flan-t5-large,Story Composition,Commonsense -> Stories
+task073_commonsenseqa_answer_generation,0.9741433962728038,0.16378462766156052,132,132,google/flan-t5-large,Question Answering,Commonsense -> Concepts and Relations
+task074_squad1.1_question_generation,0.04553151282916638,0.1947029959974867,131,132,google/flan-t5-large,Question Generation,Wikipedia
+task075_squad1.1_answer_generation,0.9651911510189882,0.176422119140625,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task076_splash_correcting_sql_mistake,0.0172580270224362,0.19813899831338364,132,132,google/flan-t5-large,Text to Code,SQL
+task077_splash_explanation_to_sql,0.017375081013973004,0.190900852282842,132,132,google/flan-t5-large,Text to Code,SQL
+task078_all_elements_except_last_i,0.6893939393939394,0.3090111423622478,132,132,google/flan-t5-large,Program Execution,Mathematics
+task079_conala_concat_strings,0.9621212121212122,0.15607546947219156,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task080_piqa_answer_generation,0.8046458975948168,0.17653927884318613,132,132,google/flan-t5-large,Question Answering,Commonsense -> Concepts and Relations -> Physical Commonsense
+task081_piqa_wrong_answer_generation,0.7796683435638746,0.19343380043000885,132,132,google/flan-t5-large,Wrong Candidate Generation,Commonsense -> Concepts and Relations -> Physical Commonsense
+task082_babi_t1_single_supporting_fact_question_generation,0.34157426373039534,0.18533400694529215,124,132,google/flan-t5-large,Question Generation,Commonsense -> Concepts and Relations -> Spatial Commonsense
+task083_babi_t1_single_supporting_fact_answer_generation,1.000000055766467,0.17143647779117932,132,132,google/flan-t5-large,Question Answering,Commonsense -> Concepts and Relations -> Spatial Commonsense
+task084_babi_t1_single_supporting_fact_identify_relevant_fact,1.0000000135465101,0.14553078241420514,132,132,google/flan-t5-large,Question Answering,Commonsense -> Concepts and Relations -> Spatial Commonsense
+task085_unnatural_addsub_arithmetic,0.0,0.16340418656667074,132,132,google/flan-t5-large,Mathematics,Mathematics
+task087_new_operator_addsub_arithmetic,0.0,0.1435402130538767,132,132,google/flan-t5-large,Mathematics,Mathematics
+task088_identify_typo_verification,0.9696969696969697,0.17623072411074783,132,132,google/flan-t5-large,Spelling Error Detection,Commonsense -> Concepts and Relations
+task089_swap_words_verification,0.18181818181818182,0.18835063188365012,132,132,google/flan-t5-large,Grammar Error Detection,Image Caption
+task090_equation_learner_algebra,0.1590909090909091,0.1319778502890558,132,132,google/flan-t5-large,Mathematics,Mathematics
+task091_all_elements_from_index_i_to_j,0.3787878787878788,0.239803772984129,132,132,google/flan-t5-large,Program Execution,Code
+task092_check_prime_classification,0.8106060606060606,0.16013129416740302,132,132,google/flan-t5-large,Mathematics,Mathematics
+task093_conala_normalize_lists,0.0,0.21875177775368546,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task094_conala_calculate_mean,0.0,0.17083889020211768,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task095_conala_max_absolute_value,0.9848484848484849,0.1642014470064279,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task096_conala_list_index_subtraction,0.3333333333333333,0.21076367479382138,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task097_conala_remove_duplicates,1.0,0.1986366564577276,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task098_conala_list_intersection,0.9621212121212122,0.15408976601831842,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task099_reverse_elements_between_index_i_and_j,0.5757575757575758,0.19318363160798044,132,132,google/flan-t5-large,Program Execution,Code
+task100_concatenate_all_elements_from_index_i_to_j,0.3560606060606061,0.1921158107844266,132,132,google/flan-t5-large,Program Execution,Code
+task101_reverse_and_concatenate_all_elements_from_index_i_to_j,0.30303030303030304,0.19914689434297156,132,132,google/flan-t5-large,Program Execution,Code
+task103_facts2story_long_text_generation,0.8652218188526053,0.8503264951886553,132,132,google/flan-t5-large,Story Composition,Story
+task104_semeval_2019_task10_closed_vocabulary_mathematical_answer_generation,0.8903943331855716,0.1511000498677745,132,132,google/flan-t5-large,Question Answering,Mathematics
+task105_story_cloze-rocstories_sentence_generation,0.17071683419195563,0.17406794744910617,132,132,google/flan-t5-large,Text Completion,"Story, Commonsense"
+task107_splash_question_to_sql,0.1908292046999934,0.36126533647378284,132,132,google/flan-t5-large,Text to Code,Code -> Language -> SQL
+task108_contextualabusedetection_classification,0.7803030303030303,0.16670269361048035,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task109_smsspamcollection_spamsmsdetection,0.9848484848484849,0.16805551313992703,132,132,google/flan-t5-large,Spam Classification,Social Media -> Text Message
+task110_logic2text_sentence_generation,0.30407857278056577,0.2242141469861522,132,132,google/flan-t5-large,Code to Text,Code -> Language -> SQL
+task111_asset_sentence_simplification,0.42760718935112924,0.2388901227351391,129,132,google/flan-t5-large,Text Simplification,Wikipedia
+task112_asset_simple_sentence_identification,0.31496494110854467,0.17409588486859293,132,132,google/flan-t5-large,Text Simplification,Wikipedia
+task113_count_frequency_of_letter,0.3409090909090909,0.1424015877824841,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task114_is_the_given_word_longest,0.8712121212121212,0.17172558199275623,132,132,google/flan-t5-large,Linguistic Probing,Captions -> Image Captions
+task115_help_advice_classification,0.8636363636363636,0.1755463991201285,132,132,google/flan-t5-large,Text Categorization,Social Media -> Reddit
+task116_com2sense_commonsense_reasoning,0.5909090909090909,0.16655517798481564,132,132,google/flan-t5-large,Commonsense Classification,Commonsense -> Concepts and Relations
+task118_semeval_2019_task10_open_vocabulary_mathematical_answer_generation,0.9016719857851664,0.16957630758935754,132,132,google/flan-t5-large,Question Answering,Mathematics
+task119_semeval_2019_task10_geometric_mathematical_answer_generation,0.8891194560600602,0.1587549666412004,131,131,google/flan-t5-large,Question Answering,Mathematics
+task122_conala_list_index_addition,0.0,0.2686414352872155,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task123_conala_sort_dictionary,0.0,0.6784849893866163,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task124_conala_pair_averages,0.007575757575757576,0.25644625994292175,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task125_conala_pair_differences,0.015151515151515152,0.2405046048489484,132,132,google/flan-t5-large,Program Execution,Code -> Repo -> Stack Overflow
+task126_scan_structured_text_generation_command_action_all,0.8720782041813877,0.6097960973327811,132,132,google/flan-t5-large,Text to Code,Computer Science -> Machine Learning
+task127_scan_long_text_generation_action_command_all,0.7776005750905788,0.19133707610043613,131,132,google/flan-t5-large,Code to Text,Computer Science -> Machine Learning
+task128_scan_structured_text_generation_command_action_short,0.9320050220865747,0.46621772105043585,132,132,google/flan-t5-large,Text to Code,Computer Science -> Machine Learning
+task129_scan_long_text_generation_action_command_short,0.7320486281910029,0.1664060146519632,132,132,google/flan-t5-large,Code to Text,Computer Science -> Machine Learning
+task130_scan_structured_text_generation_command_action_long,0.7862279000408254,0.9000678875229575,132,132,google/flan-t5-large,Text to Code,Computer Science -> Machine Learning
+task131_scan_long_text_generation_action_command_long,0.7755867609307535,0.1793377444599614,132,132,google/flan-t5-large,Code to Text,Computer Science -> Machine Learning
+task132_dais_text_modification,1.0,0.17199310118501837,132,132,google/flan-t5-large,Paraphrasing,Commonsense
+task137_detoxifying-lms_classification_toxicity,0.6666666666666666,0.14542185763518015,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task138_detoxifying-lms_classification_fluency,0.8333333283333335,0.15850286998532034,132,132,google/flan-t5-large,Text Completion,Social Media -> Twitter
+task139_detoxifying-lms_classification_topicality,0.8409090859090911,0.1563832059954152,132,132,google/flan-t5-large,Text Completion,Social Media -> Twitter
+task140_detoxifying-lms_classification_style,0.8295454495454546,0.15433425614328095,132,132,google/flan-t5-large,Text Completion,Social Media -> Twitter
+task141_odd-man-out_classification_category,0.9545454545454546,0.17153850107481985,132,132,google/flan-t5-large,Word Semantics,Game -> Card Game
+task142_odd-man-out_classification_no_category,0.8863636363636364,0.15752310689651605,132,132,google/flan-t5-large,Word Semantics,Game -> Card Game
+task143_odd-man-out_classification_generate_category,0.9848484848484849,0.17543534076575076,132,132,google/flan-t5-large,Text Categorization,Game -> Card Game
+task144_subjqa_question_answering,0.7842735040918455,0.2016483707861467,129,132,google/flan-t5-large,Question Answering,"Reviews -> Movies, Reviews -> TripAdvisor, Reviews -> Restaurants, Reviews -> Movies, Reviews -> Books, Reviews -> Electronics and Grocery"
+task145_afs_argument_similarity_death_penalty,0.9770514585755088,0.14756336492119412,132,132,google/flan-t5-large,Text Matching,Government and Politics
+task146_afs_argument_similarity_gun_control,0.9813011884689331,0.1692574746680982,132,132,google/flan-t5-large,Text Matching,Government and Politics
+task147_afs_argument_similarity_gay_marriage,0.9770514585755088,0.13578212622440222,132,132,google/flan-t5-large,Text Matching,Government and Politics
+task148_afs_argument_quality_gay_marriage,0.9797591090653882,0.17885118090745175,132,132,google/flan-t5-large,Text Matching,Government and Politics
+task149_afs_argument_quality_death_penalty,0.9761871928066919,0.15520364858887412,132,132,google/flan-t5-large,Text Matching,Government and Politics
+task150_afs_argument_quality_gun_control,0.9928561354225333,0.1654334691437808,132,132,google/flan-t5-large,Text Matching,Government and Politics
+task151_tomqa_find_location_easy_clean,1.0000000027093021,0.1673722926414374,132,132,google/flan-t5-large,Question Answering,Commonsense -> Stories
+task152_tomqa_find_location_easy_noise,1.0000000027093021,0.16901378830273947,132,132,google/flan-t5-large,Question Answering,Commonsense -> Stories
+task153_tomqa_find_location_hard_clean,1.0000000058701544,0.1928690509362654,132,132,google/flan-t5-large,Question Answering,Commonsense -> Stories
+task154_tomqa_find_location_hard_noise,1.0000000042897281,0.170462428168817,132,132,google/flan-t5-large,Question Answering,Commonsense -> Stories
+task155_count_nouns_verbs,0.6287878787878788,0.1664949402664647,132,132,google/flan-t5-large,Pos Tagging,Captions -> Image Captions
+task156_codah_classification_adversarial,0.928030298030303,0.16823411890954681,132,132,google/flan-t5-large,Text Completion,Commonsense -> Concepts and Relations
+task157_count_vowels_and_consonants,0.08333333333333333,0.16336416385390543,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task158_count_frequency_of_words,0.7348484848484849,0.14969523476831842,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task159_check_frequency_of_words_in_sentence_pair,0.9166666666666666,0.1464350110653675,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task160_replace_letter_in_a_sentence,0.13636363636363635,0.22240866946451593,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task161_count_words_containing_letter,0.6136363636363636,0.17113673009655692,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task162_count_words_starting_with_letter,0.49242424242424243,0.1639715681473414,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task163_count_words_ending_with_letter,0.4696969696969697,0.16431754962964493,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task164_mcscript_question_answering_text,0.9917182098283912,0.19726016033779492,132,132,google/flan-t5-large,Question Answering,Narrative -> Everyday Events
+task165_mcscript_question_answering_commonsense,0.9775407798588276,0.15266849913380362,132,132,google/flan-t5-large,Question Answering,Narrative -> Everyday Events
+task166_clariq_sentence_generation,0.12436485221670943,0.18716129209056045,104,132,google/flan-t5-large,Question Generation,Dialogue
+task167_strategyqa_question_generation,0.05397434516445816,0.19167297265746377,117,132,google/flan-t5-large,Question Generation,Wikipedia
+task168_strategyqa_question_decomposition,0.4178093093131715,0.6987491877693118,121,132,google/flan-t5-large,Question Decomposition,Wikipedia
+task169_strategyqa_sentence_generation,0.007575757575757576,0.2944246616327401,132,132,google/flan-t5-large,Misc.,Wikipedia
+task170_hotpotqa_answer_generation,0.6192040861457248,0.21584629019101462,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task176_break_decompose_questions,0.1284185403100146,0.2507628057942246,132,132,google/flan-t5-large,Question Decomposition,Miscellaneous
+task177_para-nmt_paraphrasing,0.21727888001274617,0.23264581100507217,132,132,google/flan-t5-large,Paraphrasing,Miscellaneous
+task178_quartz_question_answering,0.9909105702783122,0.15310093173474976,132,132,google/flan-t5-large,Question Answering,Natural Science
+task179_participant_extraction,0.803030303030303,0.15842474816423474,132,132,google/flan-t5-large,Information Extraction,Medicine
+task180_intervention_extraction,0.7196969696969697,0.16329104566212857,132,132,google/flan-t5-large,Information Extraction,Medicine
+task181_outcome_extraction,0.5984848484848485,0.17319493221514154,132,132,google/flan-t5-large,Information Extraction,Medicine
+task182_duorc_question_generation,0.04800709694657186,0.23655183748765427,131,132,google/flan-t5-large,Question Generation,Movies
+task183_rhyme_generation,0.0,0.1564592430085847,123,132,google/flan-t5-large,Misc.,Miscellaneous
+task184_break_generate_question,0.016004833009215083,0.2476564311619961,132,132,google/flan-t5-large,Question Generation,Wikipedia
+task191_hotpotqa_question_generation,0.03868575697320241,0.25640045919201593,132,132,google/flan-t5-large,Question Generation,Wikipedia
+task192_hotpotqa_sentence_generation,0.7541095556668902,0.2957437508033984,132,132,google/flan-t5-large,Explanation,Wikipedia
+task193_duorc_question_generation,0.03473895707169525,0.21427973517865845,132,132,google/flan-t5-large,Question Generation,Movies
+task194_duorc_answer_generation,0.6923710415139794,0.20536628275206595,132,132,google/flan-t5-large,Question Answering,Movies
+task195_sentiment140_classification,0.8787878787878788,0.1902053410356695,132,132,google/flan-t5-large,Sentiment Analysis,Social Media -> Twitter
+task196_sentiment140_answer_generation,0.8409090909090909,0.15234450363751614,132,132,google/flan-t5-large,Sentiment Analysis,Social Media -> Twitter
+task205_remove_even_elements,1.0,0.18329770005110538,132,132,google/flan-t5-large,Program Execution,Mathematics
+task206_collatz_conjecture,0.9545454545454546,0.18521780182014813,132,132,google/flan-t5-large,Program Execution,Mathematics
+task207_max_element_lists,0.8863636363636364,0.20520397117643646,132,132,google/flan-t5-large,Program Execution,Mathematics
+task208_combinations_of_list,0.5681818181818182,0.6793760043202024,132,132,google/flan-t5-large,Program Execution,Mathematics
+task209_stancedetection_classification,0.8636363636363636,0.14249711686914618,132,132,google/flan-t5-large,Stance Detection,Debatepedia
+task210_logic2text_structured_text_generation,0.02418609580299485,0.34312052618373523,132,132,google/flan-t5-large,Text to Code,"Wikipedia, Logic -> Propositional Logic"
+task211_logic2text_classification,0.0821780636457381,0.16524838001439066,132,132,google/flan-t5-large,Text to Code,"Wikipedia, Logic -> Propositional Logic"
+task212_logic2text_classification,0.017513357826140906,0.18165454042680335,132,132,google/flan-t5-large,Text to Code,"Wikipedia, Logic -> Propositional Logic"
+task223_quartz_explanation_generation,0.30143923069490536,0.19618200849403034,132,132,google/flan-t5-large,Explanation,Natural Science
+task227_clariq_classification,0.9545454545454546,0.13272289976929175,132,132,google/flan-t5-large,Question Understanding,Dialogue
+task228_arc_answer_generation_easy,0.963064633084066,0.12525519412575345,132,132,google/flan-t5-large,Question Answering,School Science Textbooks
+task229_arc_answer_generation_hard,0.9444087985338587,0.12822926586324518,132,132,google/flan-t5-large,Question Answering,School Science Textbooks
+task243_count_elements_in_set_intersection,0.803030303030303,0.14906111991766727,132,132,google/flan-t5-large,Program Execution,Mathematics
+task244_count_elements_in_set_union,0.29545454545454547,0.1318592984567989,132,132,google/flan-t5-large,Program Execution,Mathematics
+task245_check_presence_in_set_intersection,0.9924242424242424,0.17102299269401666,132,132,google/flan-t5-large,Program Execution,Mathematics
+task246_dream_question_generation,0.05601166381052039,0.3202396748643933,132,132,google/flan-t5-large,Question Generation,"Dialogue, Natural Science -> School Science Textbooks"
+task247_dream_answer_generation,0.9619964672936917,0.14988259880831747,132,132,google/flan-t5-large,Question Answering,"Dialogue, Natural Science -> School Science Textbooks"
+task248_dream_classification,0.4772727272727273,0.15551033345135776,132,132,google/flan-t5-large,Question Understanding,"Dialogue, Natural Science -> School Science Textbooks"
+task267_concatenate_and_reverse_all_elements_from_index_i_to_j,0.18181818181818182,0.20477630604397168,132,132,google/flan-t5-large,Program Execution,Mathematics
+task268_casehold_legal_answer_generation,0.712121208560606,0.16803349554538727,132,132,google/flan-t5-large,Text Completion,Law
+task269_csrg_counterfactual_story_generation,0.9312725555941914,0.3298487907106226,132,132,google/flan-t5-large,Story Composition,Story
+task270_csrg_counterfactual_context_generation,0.8017358121208169,0.1861785316106045,132,132,google/flan-t5-large,Story Composition,Story
+task274_overruling_legal_classification,0.9242424242424242,0.17605406407153967,132,132,google/flan-t5-large,Text Categorization,Law
+task275_enhanced_wsc_paraphrase_generation,0.9648670956040873,0.2584155946969986,132,132,google/flan-t5-large,Sentence Perturbation,"Dialogue, Narrative"
+task276_enhanced_wsc_classification,0.9846878571605141,0.15752992756438977,132,132,google/flan-t5-large,Text Matching,"Dialogue, Narrative"
+task277_stereoset_sentence_generation_stereotype,0.13636363636363635,0.16473802156520612,132,132,google/flan-t5-large,Fill in The Blank,Stereotypes
+task278_stereoset_sentence_generation_antistereotype,0.015151515151515152,0.1353624282461224,132,132,google/flan-t5-large,Fill in The Blank,Stereotypes
+task279_stereoset_classification_stereotype,0.8863636363636364,0.1971391078197595,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task280_stereoset_classification_stereotype_type,0.9621212121212122,0.16625653523387332,132,132,google/flan-t5-large,Text Categorization,Stereotypes
+task283_dream_incorrect_answer_generation,0.7281431546079293,0.18431064396193533,131,132,google/flan-t5-large,Wrong Candidate Generation,"Dialogue, Natural Science -> School Science Textbooks"
+task284_imdb_classification,0.9696969696969697,0.14861256064790668,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Movies
+task285_imdb_answer_generation,0.8636363636363636,0.1727150981173371,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Movies
+task286_olid_offense_judgment,0.7727272727272727,0.15931773321195083,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task287_casehold_legal_incorrect_answer_generation,0.8225549330351917,0.28915697155576764,131,132,google/flan-t5-large,Wrong Candidate Generation,Law
+task291_semeval_2020_task4_commonsense_validation,0.9393939393939394,0.1598308655348691,132,132,google/flan-t5-large,Commonsense Classification,Commonsense -> Concepts and Relations
+task292_storycommonsense_character_text_generation,0.3560606060606061,0.14368918854178805,132,132,google/flan-t5-large,Information Extraction,Story
+task293_storycommonsense_emotion_text_generation,0.19696969696969696,0.15100383487614719,132,132,google/flan-t5-large,Sentiment Analysis,Story
+task294_storycommonsense_motiv_text_generation,0.4461538461538462,0.15810818473498026,130,132,google/flan-t5-large,Intent Identification,Story
+task295_semeval_2020_task4_commonsense_reasoning,0.9090909045454545,0.1750230071219531,132,132,google/flan-t5-large,Explanation,Commonsense -> Concepts and Relations
+task296_storycloze_correct_end_classification,0.9999999949999997,0.1418480882138917,132,132,google/flan-t5-large,Text Completion,Story
+task297_storycloze_incorrect_end_classification,0.9999999949999997,0.17613272865613303,132,132,google/flan-t5-large,Text Completion,Story
+task298_storycloze_correct_end_classification,0.9242424242424242,0.177889320434946,132,132,google/flan-t5-large,Coherence Classification,Story
+task299_storycloze_sentence_generation,0.25883066765406554,0.19209842519326645,132,132,google/flan-t5-large,Text Completion,Story
+task300_storycloze_order_generation,0.8726434602656148,0.17498170787637884,132,132,google/flan-t5-large,Sentence Ordering,"Story, Commonsense"
+task301_record_question_generation,0.0122965768236371,0.2815803311990969,128,132,google/flan-t5-large,Question Generation,News
+task302_record_classification,0.9746849078572157,0.16614372396107877,132,132,google/flan-t5-large,Question Answering,News
+task303_record_incorrect_answer_generation,0.6816891741775374,0.1629856824874878,131,132,google/flan-t5-large,Wrong Candidate Generation,News
+task305_jeopardy_answer_generation_normal,0.1590909090909091,0.16979831998998468,132,132,google/flan-t5-large,Misc.,Knowledge Base
+task306_jeopardy_answer_generation_double,0.12878787878787878,0.16564766882043896,132,132,google/flan-t5-large,Misc.,Knowledge Base
+task307_jeopardy_answer_generation_final,0.030303030303030304,0.1854775141585957,132,132,google/flan-t5-large,Misc.,Knowledge Base
+task308_jeopardy_answer_generation_all,0.06060606060606061,0.15494424962636197,132,132,google/flan-t5-large,Misc.,Knowledge Base
+task309_race_answer_generation,0.9230803030006813,0.2050573735526114,132,132,google/flan-t5-large,Question Answering,English Exams
+task310_race_classification,0.9306904558431018,0.17596581487944632,132,132,google/flan-t5-large,Question Answering,English Exams
+task311_race_question_generation,0.1448080657134004,0.23920675976709885,132,132,google/flan-t5-large,Question Generation,English Exams
+task316_crows-pairs_classification_stereotype,0.6818181818181818,0.13066533749753778,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task317_crows-pairs_classification_stereotype_type,0.8333333333333334,0.1369233126893188,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task318_stereoset_classification_gender,0.7727272727272727,0.14992218261415308,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task319_stereoset_classification_profession,0.8787878787878788,0.1672039239695578,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task320_stereoset_classification_race,0.8712121212121212,0.1587274092616457,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task321_stereoset_classification_religion,0.803030303030303,0.18490789875839697,132,132,google/flan-t5-large,Stereotype Detection,Stereotypes
+task322_jigsaw_classification_threat,0.9545454545454546,0.15199920760862756,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task323_jigsaw_classification_sexually_explicit,0.9545454545454546,0.19806689114281625,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task324_jigsaw_classification_disagree,0.5606060606060606,0.1855892101020524,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task325_jigsaw_classification_identity_attack,0.9848484848484849,0.16853564300320364,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task326_jigsaw_classification_obscene,0.9393939393939394,0.1531889136090423,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task327_jigsaw_classification_toxic,1.0,0.1601159843531522,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task328_jigsaw_classification_insult,0.946969696969697,0.15671740878712048,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task333_hateeval_classification_hate_en,0.7954545454545454,0.1617607447234067,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task335_hateeval_classification_aggresive_en,0.5303030303030303,0.20588107452248083,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task337_hateeval_classification_individual_en,0.9090909090909091,0.15515642048734607,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task339_record_answer_generation,0.9429986784516862,0.18357577919960022,132,132,google/flan-t5-large,Question Answering,News
+task340_winomt_classification_gender_pro,1.0,0.1392281005779902,132,132,google/flan-t5-large,Gender Classification,Miscellaneous
+task341_winomt_classification_gender_anti,1.0,0.15078660303896124,132,132,google/flan-t5-large,Gender Classification,Miscellaneous
+task342_winomt_classification_profession_pro,0.9924242424242424,0.1550291311560255,132,132,google/flan-t5-large,Gender Classification,Miscellaneous
+task343_winomt_classification_profession_anti,0.9393939393939394,0.1395715953725757,132,132,google/flan-t5-large,Gender Classification,Miscellaneous
+task344_hybridqa_answer_generation,0.7113433428052248,0.17776882829088153,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task345_hybridqa_answer_generation,0.4696969696969697,0.28361113866170246,132,132,google/flan-t5-large,Pos Tagging,Wikipedia
+task346_hybridqa_classification,0.9015151515151515,0.1667561869729649,132,132,google/flan-t5-large,Pos Tagging,Wikipedia
+task347_hybridqa_incorrect_answer_generation,0.17424242424242425,0.17314622980175595,132,132,google/flan-t5-large,Pos Tagging,Wikipedia
+task350_winomt_classification_gender_identifiability_pro,0.9621212121212122,0.1736395340977293,132,132,google/flan-t5-large,Gender Classification,Miscellaneous
+task351_winomt_classification_gender_identifiability_anti,0.8863636363636364,0.16783592420997043,132,132,google/flan-t5-large,Gender Classification,Miscellaneous
+task353_casino_classification_negotiation_elicit_pref,0.8484848484848485,0.1564812565391714,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task354_casino_classification_negotiation_no_need,0.8257575757575758,0.15406190400773828,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task355_casino_classification_negotiation_other_need,0.7575757575757576,0.14671900642640662,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task356_casino_classification_negotiation_self_need,0.8409090909090909,0.14491283080794595,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task357_casino_classification_negotiation_small_talk,0.7954545454545454,0.16782051957014835,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task358_casino_classification_negotiation_uv_part,0.7424242424242424,0.17826709015802902,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task359_casino_classification_negotiation_vouch_fair,0.6363636363636364,0.17498990396658579,132,132,google/flan-t5-large,Negotiation Strategy Detection,Dialogue
+task363_sst2_polarity_classification,0.9015151515151515,0.16073868491432883,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Movies
+task364_regard_social_impact_classification,0.7575757575757576,0.15572942386973987,132,132,google/flan-t5-large,Text Categorization,Miscellaneous
+task365_synthetic_remove_vowels,0.8939393939393939,0.1769751658042272,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task366_synthetic_return_primes,0.3106060606060606,0.22918100293838617,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task367_synthetic_remove_floats,1.0,0.1926596358870015,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task368_synthetic_even_or_odd_calculation,0.9166666666666666,0.2380222434347326,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task369_synthetic_remove_odds,0.9924242424242424,0.16879565652572748,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task370_synthetic_remove_divisible_by_3,0.9545454545454546,0.1921505702264381,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task371_synthetic_product_of_list,0.0,0.27783043095559784,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task372_synthetic_palindrome_numbers,0.3409090909090909,0.18976458455577042,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task373_synthetic_round_tens_place,0.8484848484848485,0.3026720971772165,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task374_synthetic_pos_or_neg_calculation,0.9696969696969697,0.21106439964337784,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task375_classify_type_of_sentence_in_debate,0.7121212121212122,0.15808817744255066,132,132,google/flan-t5-large,Text Categorization,Government and Politics
+task376_reverse_order_of_words,0.9545454545454546,0.183282860752308,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task377_remove_words_of_given_length,0.26515151515151514,0.20391447842121124,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task378_reverse_words_of_given_length,0.3333333333333333,0.19545233294819342,132,132,google/flan-t5-large,Program Execution,Captions -> Image Captions
+task379_agnews_topic_classification,0.9015151515151515,0.1561312120069157,132,132,google/flan-t5-large,Text Categorization,News
+task380_boolq_yes_no_question,0.9772755833286227,0.13972037398453915,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task381_boolq_question_generation,0.15275549275971914,0.17800276658751749,127,132,google/flan-t5-large,Question Generation,Wikipedia
+task382_hybridqa_answer_generation,0.9090909090909091,0.1527908557292187,132,132,google/flan-t5-large,Pos Tagging,Wikipedia
+task383_matres_classification,0.8939393939393939,0.17588801411065189,132,132,google/flan-t5-large,Misc.,News
+task384_socialiqa_question_classification,0.9848484848484849,0.15769580232374597,132,132,google/flan-t5-large,Question Understanding,Commonsense -> Concepts and Relations -> Social Commonsense
+task385_socialiqa_incorrect_answer_generation,0.9359155830108759,0.13987001370299945,132,132,google/flan-t5-large,Question Answering,Commonsense -> Concepts and Relations -> Social Commonsense
+task386_semeval_2018_task3_irony_detection,0.5075757575757576,0.14652568779208444,132,132,google/flan-t5-large,Irony Detection,Social Media -> Twitter
+task387_semeval_2018_task3_irony_classification,0.44696969696969696,0.19012840724352634,132,132,google/flan-t5-large,Irony Detection,Social Media -> Twitter
+task388_torque_token_classification,0.10077519379844961,0.15755631255381036,129,132,google/flan-t5-large,Information Extraction,News
+task389_torque_generate_temporal_question,0.15718156741278794,0.16830703616142273,129,132,google/flan-t5-large,Question Generation,News
+task390_torque_text_span_selection,0.4600515348253814,0.17774753272533417,131,132,google/flan-t5-large,Question Answering,News
+task397_semeval_2018_task1_tweet_anger_detection,0.7954545454545454,0.16651505999492877,132,132,google/flan-t5-large,Sentiment Analysis,Social Media -> Twitter
+task398_semeval_2018_task1_tweet_joy_detection,0.7348484848484849,0.13740920614112506,132,132,google/flan-t5-large,Sentiment Analysis,Social Media -> Twitter
+task399_semeval_2018_task1_tweet_sadness_detection,0.8106060606060606,0.16331586602962378,132,132,google/flan-t5-large,Sentiment Analysis,Social Media -> Twitter
+task400_paws_paraphrase_classification,0.9949324799306465,0.18040622861096353,132,132,google/flan-t5-large,Text Matching,Wikipedia
+task403_creak_commonsense_inference,0.9166666666666666,0.16162094157753568,132,132,google/flan-t5-large,Fact Verification,Wikipedia
+task405_narrativeqa_question_generation,0.02712847638671128,0.19740569275436978,128,132,google/flan-t5-large,Question Generation,"Books, Movies"
+task413_mickey_en_sentence_perturbation_generation,0.7981509407417793,0.17379943258834607,132,132,google/flan-t5-large,Sentence Perturbation,"Commonsense, Knowledge Base -> Wikidata"
+task428_senteval_inversion,0.8181818181818182,0.15952668993762045,132,132,google/flan-t5-large,Linguistic Probing,Narrative
+task429_senteval_tense,0.9015151515151515,0.13107079086881696,132,132,google/flan-t5-large,Linguistic Probing,Narrative
+task430_senteval_subject_count,0.9090909090909091,0.16460236049059665,132,132,google/flan-t5-large,Linguistic Probing,Narrative
+task431_senteval_object_count,0.8787878787878788,0.1452464357470021,132,132,google/flan-t5-large,Linguistic Probing,Narrative
+task453_swag_answer_generation,0.19631083100487237,0.18573203095884033,132,132,google/flan-t5-large,Text Completion,"Captions -> Video Captions, Story"
+task454_swag_incorrect_answer_generation,0.6384556418933878,0.1938585350007722,132,132,google/flan-t5-large,Wrong Candidate Generation,Captions -> Video Captions
+task455_swag_context_generation,0.15621375236707144,0.1885533712126992,132,132,google/flan-t5-large,Text Completion,Captions -> Video Captions
+task456_matres_intention_classification,0.8787878787878788,0.14890432267478018,132,132,google/flan-t5-large,Information Extraction,News
+task457_matres_conditional_classification,0.8939393939393939,0.1349102407693863,132,132,google/flan-t5-large,Word Semantics,News
+task458_matres_negation_classification,0.9621212121212122,0.16692822042739752,132,132,google/flan-t5-large,Word Semantics,News
+task459_matres_static_classification,0.6632653061224489,0.17613321299455603,98,98,google/flan-t5-large,Word Semantics,News
+task460_qasper_answer_generation,0.8662890475313885,0.2899202447045933,132,132,google/flan-t5-large,Question Answering,Scientific Research Papers
+task461_qasper_question_generation,0.04077575013744505,0.15293806294600168,131,132,google/flan-t5-large,Question Generation,Scientific Research Papers
+task462_qasper_classification,0.6515151515151515,0.17216397460662958,132,132,google/flan-t5-large,Question Understanding,Scientific Research Papers
+task469_mrqa_answer_generation,0.790321272953103,0.17230482670393857,132,132,google/flan-t5-large,Question Answering,"Wikipedia, News, Natural Science"
+task470_mrqa_question_generation,0.10084996951072805,0.18892802298069,132,132,google/flan-t5-large,Question Generation,"Wikipedia, News, Natural Science"
+task471_haspart_answer_generation,0.6565608831094296,0.16582994930671924,132,132,google/flan-t5-large,Entity Generation,Natural Science
+task472_haspart_classification,0.6893939393939394,0.16239373295596152,132,132,google/flan-t5-large,Entity Relation Classification,Natural Science
+task475_yelp_polarity_classification,0.9621212121212122,0.16102875949758472,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Movies
+task476_cls_english_books_classification,0.9545454545454546,0.15454964926748566,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Books
+task477_cls_english_dvd_classification,0.9696969696969697,0.1761121474432223,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Electronics and Grocery
+task478_cls_english_music_classification,0.9621212121212122,0.15766095708716998,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Music
+task488_extract_all_alphabetical_elements_from_list_in_order,1.0,0.24095359218843054,132,132,google/flan-t5-large,Program Execution,Code
+task489_mwsc_question_generation,0.08795453997659922,0.17955694139003753,100,100,google/flan-t5-large,Question Generation,Commonsense
+task490_mwsc_options_generation,0.966836399435997,0.19700934767723083,100,100,google/flan-t5-large,Question Answering,Commonsense
+task491_mwsc_answer_generation,0.8618774805217981,0.13298701465129853,100,100,google/flan-t5-large,Question Answering,Commonsense
+task492_mwsc_incorrect_answer_generation,0.8484987834095955,0.19128041386604308,100,100,google/flan-t5-large,Wrong Candidate Generation,Commonsense
+task493_review_polarity_classification,0.9621212121212122,0.13871398839083585,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Electronics and Grocery
+task494_review_polarity_answer_generation,0.9621212121212122,0.15360224517908963,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Electronics and Grocery
+task495_semeval_headline_classification,0.6363636363636364,0.14366404350959894,132,132,google/flan-t5-large,Text Categorization,News
+task496_semeval_answer_generation,1.0,0.13447238595196695,132,132,google/flan-t5-large,Text Categorization,News
+task497_extract_all_numbers_from_list_in_order,0.9924242424242424,0.24206228418783707,132,132,google/flan-t5-large,Program Execution,Code
+task499_extract_and_add_all_numbers_from_list,0.09848484848484848,0.15844636929757666,132,132,google/flan-t5-large,Program Execution,Code
+task504_count_all_alphabetical_elements_in_list,0.3409090909090909,0.17556476322087375,132,132,google/flan-t5-large,Program Execution,Mathematics
+task505_count_all_numerical_elements_in_list,0.3560606060606061,0.15767876081394427,132,132,google/flan-t5-large,Program Execution,Mathematics
+task506_position_of_all_alphabetical_elements_in_list,0.20454545454545456,0.1724306597854152,132,132,google/flan-t5-large,Program Execution,Mathematics
+task507_position_of_all_numerical_elements_in_list,0.3181818181818182,0.16799106652086432,132,132,google/flan-t5-large,Program Execution,Mathematics
+task509_collate_of_all_alphabetical_and_numerical_elements_in_list_separately,0.9848484848484849,0.4467921600197301,132,132,google/flan-t5-large,Program Execution,Mathematics
+task512_twitter_emotion_classification,0.7727272727272727,0.16079127607923566,132,132,google/flan-t5-large,Sentiment Analysis,Social Media -> Twitter
+task513_argument_stance_classification,0.8257575757575758,0.18067032911560751,132,132,google/flan-t5-large,Stance Detection,Debatepedia
+task514_argument_consequence_classification,0.9397802328070005,0.16297081383791837,132,132,google/flan-t5-large,Text Matching,Debatepedia
+task515_senteval_odd_word_out,0.4621212121212121,0.15929253263906998,132,132,google/flan-t5-large,Linguistic Probing,"Narrative, Commonsense -> Concepts and Relations"
+task516_senteval_conjoints_inversion,0.6742424242424242,0.14767915642622745,132,132,google/flan-t5-large,Linguistic Probing,"Narrative, Commonsense -> Concepts and Relations"
+task517_emo_classify_emotion_of_dialogue,0.8333333333333334,0.13421900209152338,132,132,google/flan-t5-large,Sentiment Analysis,Dialogue
+task518_emo_different_dialogue_emotions,0.6060606060606061,0.1679014080401623,132,132,google/flan-t5-large,Sentiment Analysis,Dialogue
+task521_trivia_question_classification,0.9242424242424242,0.15780038544625946,132,132,google/flan-t5-large,Text Categorization,"Art, Literature, History, Sociology, Natural Science"
+task522_news_editorial_summary,0.3499559120248256,0.4383290811921611,97,132,google/flan-t5-large,Summarization,News
+task523_find_if_numbers_or_alphabets_are_more_in_list,0.803030303030303,0.13431570249976535,132,132,google/flan-t5-large,Program Execution,Mathematics
+task547_alt_translation_entk_en,0.9655561176612175,0.2797256527525006,132,132,google/flan-t5-large,Translation,News
+task550_discofuse_sentence_generation,0.6893896811684086,0.2779619933077783,132,132,google/flan-t5-large,Sentence Composition,Wikipedia
+task560_alt_translation_en_entk,0.9521256061666943,0.312316637599107,132,132,google/flan-t5-large,Translation,News
+task563_discofuse_answer_generation,0.9924242424242424,0.14501659707589584,132,132,google/flan-t5-large,Discourse Connective Identification,Wikipedia
+task564_discofuse_classification,0.1590909090909091,0.20110678627635492,132,132,google/flan-t5-large,Discourse Relation Classification,Wikipedia
+task565_circa_answer_generation,0.16079536239291428,0.16446757858449762,130,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task566_circa_classification,0.9818204817446795,0.1592178480191664,132,132,google/flan-t5-large,Text Matching,Dialogue
+task567_circa_text_generation,0.6212121212121212,0.21283419385100855,132,132,google/flan-t5-large,Misc.,Dialogue
+task568_circa_question_generation,0.10211881431973349,0.17954503496487936,132,132,google/flan-t5-large,Question Generation,Dialogue
+task573_air_dialogue_classification,0.9924242424242424,0.1730962269233935,132,132,google/flan-t5-large,Intent Identification,Dialogue
+task574_air_dialogue_sentence_generation,0.5172683658040543,0.18507494980638678,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task575_air_dialogue_classification,0.9924242424242424,0.16286518944032263,132,132,google/flan-t5-large,Speaker Identification,Dialogue
+task576_curiosity_dialogs_answer_generation,0.9523659989711311,0.29772729539509973,132,132,google/flan-t5-large,Dialogue Generation,"Dialogue, Commonsense -> Concepts and Relations -> Social Commonsense"
+task577_curiosity_dialogs_classification,1.0,0.16005343921256787,132,132,google/flan-t5-large,Speaker Identification,"Dialogue, Commonsense -> Concepts and Relations -> Social Commonsense"
+task578_curiosity_dialogs_answer_generation,0.946969696969697,0.18149407749826257,132,132,google/flan-t5-large,Information Extraction,"Dialogue, Commonsense -> Concepts and Relations -> Social Commonsense"
+task579_socialiqa_classification,0.4772727272727273,0.1509533136179953,132,132,google/flan-t5-large,Answer Verification,Commonsense -> Concepts and Relations -> Social Commonsense
+task580_socialiqa_answer_generation,0.9764747028097962,0.14967624978585678,132,132,google/flan-t5-large,Question Answering,Commonsense -> Concepts and Relations -> Social Commonsense
+task581_socialiqa_question_generation,0.603417484935308,0.20876818443789627,132,132,google/flan-t5-large,Question Generation,Commonsense -> Concepts and Relations -> Social Commonsense
+task582_naturalquestion_answer_generation,0.7473918760911776,0.16478716604637378,130,132,google/flan-t5-large,Question Answering,Wikipedia
+task583_udeps_eng_coarse_pos_tagging,0.05303030303030303,0.16409449685703625,132,132,google/flan-t5-large,Pos Tagging,News
+task584_udeps_eng_fine_pos_tagging,0.015151515151515152,0.18410239030014386,132,132,google/flan-t5-large,Pos Tagging,News
+task585_preposition_classification,0.4166666666666667,0.1566264656457034,132,132,google/flan-t5-large,Preposition Prediction,Linguistics
+task586_amazonfood_polarity_classification,0.9772727272727273,0.18786001566684607,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Food
+task587_amazonfood_polarity_correction_classification,0.9621212121212122,0.18721052507559457,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Food
+task588_amazonfood_rating_classification,0.7424242424242424,0.19027388005545645,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Food
+task589_amazonfood_summary_text_generation,0.09878401779610808,0.15452889827164737,132,132,google/flan-t5-large,Summarization,Reviews -> Food
+task590_amazonfood_summary_correction_classification,0.9385450608802565,0.1794295320005128,132,132,google/flan-t5-large,Text Matching,Reviews -> Food
+task591_sciq_answer_generation,0.788082163160046,0.16276399475155454,132,132,google/flan-t5-large,Question Answering,Natural Science -> School Science Textbooks
+task592_sciq_incorrect_answer_generation,0.6785265870535603,0.1667872089328188,130,132,google/flan-t5-large,Wrong Candidate Generation,Natural Science -> School Science Textbooks
+task593_sciq_explanation_generation,0.6270531857647865,0.21430125697092575,132,132,google/flan-t5-large,Explanation,Natural Science -> School Science Textbooks
+task594_sciq_question_generation,0.3438052075981737,0.23718944643483017,132,132,google/flan-t5-large,Question Generation,Natural Science -> School Science Textbooks
+task595_mocha_answer_generation,0.7343678725742255,0.17133650183677673,132,132,google/flan-t5-large,Question Answering,"Wikipedia, Books, Movies, Story, History"
+task596_mocha_question_generation,0.7835500613913279,0.17377576231956482,132,132,google/flan-t5-large,Question Answering,"Wikipedia, Books, Movies, Story, History"
+task597_cuad_answer_generation,0.6218420121021513,0.24074341266444235,132,132,google/flan-t5-large,Question Answering,Law
+task598_cuad_answer_generation,0.6450471371574553,0.2018792335734223,132,132,google/flan-t5-large,Question Answering,Law
+task599_cuad_question_generation,0.004822401513370624,0.21361869889678378,132,132,google/flan-t5-large,Question Generation,Law
+task600_find_the_longest_common_substring_in_two_strings,0.9166666666666666,0.19827627277735507,132,132,google/flan-t5-large,Program Execution,Mathematics
+task605_find_the_longest_common_subsequence_in_two_lists,0.9242424242424242,0.35362629773038806,132,132,google/flan-t5-large,Program Execution,Mathematics
+task606_sum_of_all_numbers_in_list_between_positions_i_and_j,0.24242424242424243,0.1574431716492682,132,132,google/flan-t5-large,Program Execution,Mathematics
+task607_sbic_intentional_offense_binary_classification,0.6363636363636364,0.15924122432867685,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task608_sbic_sexual_offense_binary_classification,0.9166666666666666,0.14668962088498202,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task609_sbic_potentially_offense_binary_classification,0.6666666666666666,0.18166229806163095,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task610_conllpp_ner,0.16666666666666666,0.3262562995607203,132,132,google/flan-t5-large,Named Entity Recognition,Miscellaneous
+task611_mutual_multi_turn_dialogue,0.7651515113257575,0.19645454079815836,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task615_moviesqa_answer_generation,0.7148393555967645,0.5602281165845466,132,132,google/flan-t5-large,Question Answering,Movies
+task616_cola_classification,0.972624324036367,0.14991303781668344,132,132,google/flan-t5-large,Text Quality Evaluation,Linguistics
+task617_amazonreview_category_text_generation,0.6363636363636364,0.15486428999539578,132,132,google/flan-t5-large,Text Categorization,Reviews
+task618_amazonreview_summary_text_generation,0.4504973854229763,0.22862616407148767,132,132,google/flan-t5-large,Summarization,Reviews
+task622_replace_alphabets_in_a_list_by_their_position_in_english_alphabet,0.9696969696969697,0.35092987797477027,132,132,google/flan-t5-large,Program Execution,Mathematics
+task625_xlwic_true_or_false_answer_generation,0.4166666666666667,0.1630254044677272,132,132,google/flan-t5-large,Word Semantics,Miscellaneous
+task626_xlwic_sentence_based_on_given_word_sentence_generation,0.6591233946524109,0.18803978643634103,132,132,google/flan-t5-large,Sentence Composition,Miscellaneous
+task627_xlwic_word_with_same_meaning_sentence_generation,0.6924980017497684,0.17580019705223315,132,132,google/flan-t5-large,Sentence Composition,Miscellaneous
+task628_xlwic_word_with_different_meaning_sentence_generation,0.6684230477668536,0.18627695242563883,39,39,google/flan-t5-large,Sentence Composition,Miscellaneous
+task629_dbpedia_14_classification,0.9848484848484849,0.16295479554118533,132,132,google/flan-t5-large,Text Categorization,Wikipedia
+task630_dbpedia_14_classification,1.0000000325116245,0.13147203082388098,132,132,google/flan-t5-large,Text Matching,Wikipedia
+task631_dbpedia_14_incorrect_answer_generation,0.635595802725716,0.15802903247602057,132,132,google/flan-t5-large,Wrong Candidate Generation,Wikipedia
+task632_dbpedia_14_classification,1.0,0.15580538276470068,132,132,google/flan-t5-large,Text Categorization,Wikipedia
+task633_dbpedia_14_answer_generation,0.9924242424242424,0.16903669048439374,132,132,google/flan-t5-large,Text Categorization,Wikipedia
+task636_extract_and_sort_unique_alphabets_in_a_list,0.9848484848484849,0.2723826237700202,132,132,google/flan-t5-large,Program Execution,Mathematics
+task637_extract_and_sort_unique_digits_in_a_list,0.7878787878787878,0.15702975473620676,132,132,google/flan-t5-large,Program Execution,Mathematics
+task638_multi_woz_classification,0.4772727272727273,0.16722711875583185,132,132,google/flan-t5-large,Speaker Identification,Dialogue
+task639_multi_woz_user_utterance_generation,0.09237661222190485,0.1705965702280854,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task649_race_blank_question_generation,0.12413897714102758,0.1991998449419484,132,132,google/flan-t5-large,Question Generation,English Exams
+task664_mmmlu_answer_generation_abstract_algebra,0.9078073695834193,0.15391325152346066,112,112,google/flan-t5-large,Question Answering,Mathematics
+task665_mmmlu_answer_generation_anatomy,0.9111834913492203,0.18562515396060367,132,132,google/flan-t5-large,Question Answering,Biology -> Anatomy
+task666_mmmlu_answer_generation_astronomy,0.9045757723577095,0.15625820421811307,132,132,google/flan-t5-large,Question Answering,Astronomy
+task667_mmmlu_answer_generation_business_ethics,0.9452077310109875,0.13170566386783245,97,97,google/flan-t5-large,Question Answering,Business Ethics
+task668_extreme_abstract_summarization,0.22153829234993322,0.2802822436347152,128,132,google/flan-t5-large,Summarization,Scientific Research Papers
+task672_nummersense,0.5454545454545454,0.1704022256713925,132,132,google/flan-t5-large,Fill in The Blank,Commonsense
+task672_amazon_and_yelp_summarization_dataset_summarization,0.2372575846398056,0.3792486403024558,98,132,google/flan-t5-large,Summarization,Reviews
+task673_google_wellformed_query_classification,0.7803030303030303,0.16065647385337137,132,132,google/flan-t5-large,Question Understanding,Miscellaneous
+task674_google_wellformed_query_sentence_generation,0.8693137770645659,0.15460741113532672,132,132,google/flan-t5-large,Text Quality Evaluation,Miscellaneous
+task675_google_wellformed_query_sentence_generation,0.8337306576519923,0.18744329205065063,132,132,google/flan-t5-large,Text Quality Evaluation,Miscellaneous
+task679_hope_edi_english_text_classification,0.8333333333333334,0.1558908960132888,132,132,google/flan-t5-large,Text Categorization,Social Media
+task681_hope_edi_malayalam_text_classification,0.6666666666666666,0.1516494895472671,132,132,google/flan-t5-large,Text Categorization,Social Media
+task682_online_privacy_policy_text_classification,0.9621212121212122,0.15422315534317133,132,132,google/flan-t5-large,Text Categorization,Social Media
+task683_online_privacy_policy_text_purpose_answer_generation,0.9772727272727273,0.13992256287372473,132,132,google/flan-t5-large,Information Extraction,Law
+task684_online_privacy_policy_text_information_type_generation,0.9696969696969697,0.18718320447387118,132,132,google/flan-t5-large,Information Extraction,Law
+task685_mmmlu_answer_generation_clinical_knowledge,0.9331959206046481,0.18366616648254971,132,132,google/flan-t5-large,Question Answering,Biology -> Clinical Knowledge
+task686_mmmlu_answer_generation_college_biology,0.901806141390945,0.17894453261837814,132,132,google/flan-t5-large,Question Answering,Biology
+task687_mmmlu_answer_generation_college_chemistry,0.9036301146854054,0.17055208412083714,110,110,google/flan-t5-large,Question Answering,Chemistry
+task688_mmmlu_answer_generation_college_computer_science,0.910505062447185,0.1586657620109288,113,113,google/flan-t5-large,Question Answering,Computer Science
+task689_mmmlu_answer_generation_college_mathematics,0.9056398222404244,0.16443285214162506,113,113,google/flan-t5-large,Question Answering,Mathematics
+task690_mmmlu_answer_generation_college_medicine,0.9227144548892975,0.17198088788986207,125,125,google/flan-t5-large,Question Answering,Medicine
+task691_mmmlu_answer_generation_college_physics,0.8994503940145174,0.19196270778775215,96,96,google/flan-t5-large,Question Answering,Physics
+task692_mmmlu_answer_generation_computer_security,0.9236007206207884,0.17448382251030575,113,113,google/flan-t5-large,Question Answering,Computer Science -> Computer Security
+task693_mmmlu_answer_generation_conceptual_physics,0.9124466212409915,0.14533376874345721,132,132,google/flan-t5-large,Question Answering,Physics
+task694_mmmlu_answer_generation_econometrics,0.8882034728303552,0.15441092429682612,128,128,google/flan-t5-large,Question Answering,Econometrics
+task695_mmmlu_answer_generation_electrical_engineering,0.910906110523325,0.17432950346758871,132,132,google/flan-t5-large,Question Answering,Electrical Engineering
+task696_mmmlu_answer_generation_elementary_mathematics,0.9056763755101146,0.134638223232645,132,132,google/flan-t5-large,Question Answering,Mathematics
+task697_mmmlu_answer_generation_formal_logic,0.8944472605080316,0.14368286593393845,132,132,google/flan-t5-large,Question Answering,Logic -> Formal logic
+task698_mmmlu_answer_generation_global_facts,0.9150286468544176,0.13295608758926392,112,112,google/flan-t5-large,Question Answering,Global Facts
+task699_mmmlu_answer_generation_high_school_biology,0.9099639904769984,0.15058760209517044,132,132,google/flan-t5-large,Question Answering,Biology
+task700_mmmlu_answer_generation_high_school_chemistry,0.9015446603298187,0.16295279246388059,132,132,google/flan-t5-large,Question Answering,Chemistry
+task701_mmmlu_answer_generation_high_school_computer_science,0.9194052971161164,0.160183293325407,111,111,google/flan-t5-large,Question Answering,Computer Science
+task702_mmmlu_answer_generation_high_school_european_history,0.9245368147438223,0.17171919165235577,132,132,google/flan-t5-large,Question Answering,History -> European History
+task703_mmmlu_answer_generation_high_school_geography,0.9333569432298342,0.14506514144666266,132,132,google/flan-t5-large,Question Answering,Geography
+task704_mmmlu_answer_generation_high_school_government_and_politics,0.9330845495516603,0.15583015526785995,132,132,google/flan-t5-large,Question Answering,Government and Politics
+task705_mmmlu_answer_generation_high_school_macroeconomics,0.9131119567336459,0.18483357312101306,132,132,google/flan-t5-large,Question Answering,Economics -> Macroeconomics
+task706_mmmlu_answer_generation_high_school_mathematics,0.8990175638234976,0.17947006270740973,132,132,google/flan-t5-large,Question Answering,Mathematics
+task707_mmmlu_answer_generation_high_school_microeconomics,0.9277096368146666,0.15342778825398648,132,132,google/flan-t5-large,Question Answering,Economics -> Microeconomics
+task708_mmmlu_answer_generation_high_school_physics,0.9145171016906247,0.14634288215275967,132,132,google/flan-t5-large,Question Answering,Physics
+task709_mmmlu_answer_generation_high_school_psychology,0.9461748760306474,0.19004537661870322,132,132,google/flan-t5-large,Question Answering,Psychology
+task710_mmmlu_answer_generation_high_school_statistics,0.8975143958673333,0.12695888181527457,132,132,google/flan-t5-large,Question Answering,Statistics
+task711_mmmlu_answer_generation_high_school_us_history,0.929117917562976,0.16743203952456964,132,132,google/flan-t5-large,Question Answering,History
+task712_mmmlu_answer_generation_high_school_world_history,0.9312968922383857,0.16694139576319492,132,132,google/flan-t5-large,Question Answering,History
+task713_mmmlu_answer_generation_human_aging,0.9246538152748888,0.17329749961694083,132,132,google/flan-t5-large,Question Answering,Biology -> Human Biology
+task714_mmmlu_answer_generation_human_sexuality,0.9226200986992229,0.14635022300662417,132,132,google/flan-t5-large,Question Answering,Human Sexuality
+task715_mmmlu_answer_generation_international_law,0.9281281521826079,0.18444575820908402,132,132,google/flan-t5-large,Question Answering,International Law
+task716_mmmlu_answer_generation_jurisprudence,0.9247763341616008,0.14055905558846213,121,121,google/flan-t5-large,Question Answering,Jurisprudence
+task717_mmmlu_answer_generation_logical_fallacies,0.9359744945258806,0.14434164627031845,132,132,google/flan-t5-large,Question Answering,Formal Fallacy
+task718_mmmlu_answer_generation_machine_learning,0.897311288356781,0.16209140396118163,125,125,google/flan-t5-large,Question Answering,Computer Science -> Machine Learning
+task719_mmmlu_answer_generation_management,0.937892297732419,0.1620204746723175,116,116,google/flan-t5-large,Question Answering,Management
+task720_mmmlu_answer_generation_marketing,0.9630956744605844,0.13629593993678238,132,132,google/flan-t5-large,Question Answering,Marketing
+task721_mmmlu_answer_generation_medical_genetics,0.9211809031203785,0.1729128766903835,113,113,google/flan-t5-large,Question Answering,Medical Genetics
+task722_mmmlu_answer_generation_random_topic,0.9283388083179792,0.1727384410121224,132,132,google/flan-t5-large,Question Answering,Miscellaneous
+task723_mmmlu_answer_generation_moral_disputes,0.926201925358989,0.15454919862024713,132,132,google/flan-t5-large,Question Answering,Moral Scenarios
+task724_mmmlu_answer_generation_moral_scenarios,0.8872620149543791,0.1715231253342195,132,132,google/flan-t5-large,Question Answering,Moral Scenarios
+task725_mmmlu_answer_generation_nutrition,0.924536474952192,0.15837165713310242,132,132,google/flan-t5-large,Question Answering,Nutrition
+task726_mmmlu_answer_generation_philosophy,0.9242814571568461,0.14461277018893848,132,132,google/flan-t5-large,Question Answering,Philosophy
+task727_mmmlu_answer_generation_prehistory,0.9190658726023905,0.1548725917483821,132,132,google/flan-t5-large,Question Answering,Prehistory
+task728_mmmlu_answer_generation_professional_accounting,0.9065610402912805,0.13868111371994019,132,132,google/flan-t5-large,Question Answering,Accounting
+task729_mmmlu_answer_generation_professional_law,0.8995090594345873,0.16498400587024112,132,132,google/flan-t5-large,Question Answering,Law
+task730_mmmlu_answer_generation_professional_medicine,0.9254994150815588,0.14238151682145667,132,132,google/flan-t5-large,Question Answering,Medicine
+task731_mmmlu_answer_generation_professional_psychology,0.919540626984654,0.18228542217702576,132,132,google/flan-t5-large,Question Answering,Psychology
+task732_mmmlu_answer_generation_public_relations,0.9291546545922756,0.14332760572433473,120,120,google/flan-t5-large,Question Answering,Public Relations
+task733_mmmlu_answer_generation_security_studies,0.9219516901807352,0.16275036786541794,132,132,google/flan-t5-large,Question Answering,Security: National Security
+task734_mmmlu_answer_generation_sociology,0.93523565566901,0.11618224373369505,132,132,google/flan-t5-large,Question Answering,Sociology
+task735_mmmlu_answer_generation_us_foreign_policy,0.9396774779473033,0.18299590902669088,112,112,google/flan-t5-large,Question Answering,US Foreign Policy
+task736_mmmlu_answer_generation_virology,0.9169231748039072,0.15500229235851404,132,132,google/flan-t5-large,Question Answering,Biology -> Virology
+task737_mmmlu_answer_generation_world_religions,0.9013688948118326,0.16922728536706982,132,132,google/flan-t5-large,Question Answering,World Religions
+task739_lhoestq_question_generation,0.034574124891375374,0.24038557482488226,79,132,google/flan-t5-large,Question Generation,Web
+task740_lhoestq_answer_generation_quantity,0.9706772682020219,0.14809220423132685,118,118,google/flan-t5-large,Question Answering,Web
+task741_lhoestq_answer_generation_place,0.931158849841048,0.19371914760819797,116,116,google/flan-t5-large,Question Answering,Web
+task742_lhoestq_answer_generation_frequency,0.9436521228511356,0.17209578949270896,103,103,google/flan-t5-large,Question Answering,Web
+task745_ai2_arithmetic_questions_arithmetic,0.8466673477581053,0.12983705284017505,132,132,google/flan-t5-large,Question Answering,Mathematics
+task746_yelp_restaurant_review_classification,0.9772727272727273,0.16462487975756326,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task750_aqua_multiple_choice_answering,0.9818736425403393,0.16506688251639856,132,132,google/flan-t5-large,Question Answering,Mathematics
+task751_svamp_subtraction_question_answering,0.8395075641120925,0.15563790048613693,132,132,google/flan-t5-large,Question Answering,Mathematics
+task752_svamp_multiplication_question_answering,0.7749664229513319,0.14958139039852,108,108,google/flan-t5-large,Question Answering,Mathematics
+task753_svamp_addition_question_answering,0.8464959556180419,0.1429847510475101,132,132,google/flan-t5-large,Question Answering,Mathematics
+task754_svamp_common-division_question_answering,0.8325519552736571,0.13380082854718872,132,132,google/flan-t5-large,Question Answering,Mathematics
+task755_find_longest_substring_and_replace_its_sorted_lowercase_version_in_both_lists,0.12121212121212122,0.35058982715462195,132,132,google/flan-t5-large,Program Execution,Mathematics
+task756_find_longert_substring_and_return_all_unique_alphabets_in_it,0.5303030303030303,0.3401010153871594,132,132,google/flan-t5-large,Program Execution,Mathematics
+task761_app_review_classification,0.9848484848484849,0.1537315728086414,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task766_craigslist_bargains_classification,0.9090909090909091,0.15493966819662036,132,132,google/flan-t5-large,Dialogue State Tracking,Dialogue
+task767_craigslist_bargains_classification,0.946969696969697,0.17216391816283716,132,132,google/flan-t5-large,Text Categorization,Dialogue
+task770_pawsx_english_text_modification,0.6277231556406451,0.2726850405786977,132,132,google/flan-t5-large,Paraphrasing,Wikipedia
+task819_pec_sentiment_classification,0.8552631578947368,0.12444594345594708,76,76,google/flan-t5-large,Sentiment Analysis,Social Media -> Reddit
+task820_protoqa_answer_generation,0.7145502333744214,0.15546551798329208,130,132,google/flan-t5-large,Question Answering,Web
+task821_protoqa_question_generation,0.07720920922561139,0.19114203615622086,132,132,google/flan-t5-large,Question Generation,Web
+task823_peixian-rtgender_sentiment_analysis,0.7045454545454546,0.14043486163471686,132,132,google/flan-t5-large,Sentiment Analysis,Social Media
+task833_poem_sentiment_classification,0.9318181818181818,0.16616657692374606,132,132,google/flan-t5-large,Sentiment Analysis,Literature
+task834_mathdataset_classification,1.0,0.13359930569475348,132,132,google/flan-t5-large,Question Understanding,Mathematics
+task835_mathdataset_answer_generation,0.8096852953348196,0.14522459741794702,132,132,google/flan-t5-large,Question Answering,Mathematics
+task843_financial_phrasebank_classification,0.8939393939393939,0.17130877258199634,132,132,google/flan-t5-large,Sentiment Analysis,News
+task844_financial_phrasebank_classification,0.9242424242424242,0.1637181368741122,132,132,google/flan-t5-large,Sentiment Analysis,News
+task845_pubmedqa_question_generation,0.14789160938724388,0.25851990643775824,132,132,google/flan-t5-large,Question Generation,Medicine
+task846_pubmedqa_classification,0.9393939393939394,0.17902573762517987,132,132,google/flan-t5-large,Answer Verification,Medicine
+task847_pubmedqa_question_generation,0.12948238814590493,0.2867432322466012,132,132,google/flan-t5-large,Question Generation,Medicine
+task848_pubmedqa_classification,0.7272727272727273,0.1519763438087521,132,132,google/flan-t5-large,Intent Identification,Medicine
+task849_pubmedqa_answer_generation,0.8814551672249129,0.32469052031184686,132,132,google/flan-t5-large,Question Answering,Medicine
+task850_synthetic_longest_palindrome,0.06060606060606061,0.17948839790893323,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task851_synthetic_multiply_evens,0.03787878787878788,0.2607656789548469,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task852_synthetic_multiply_odds,0.05303030303030303,0.27223625417911645,132,132,google/flan-t5-large,Program Execution,"Code, Mathematics"
+task853_hippocorpus_long_text_generation,0.7581117551487225,0.7698667846046962,104,104,google/flan-t5-large,Story Composition,Story
+task854_hippocorpus_classification,0.325,0.18042400280634563,120,120,google/flan-t5-large,Text Categorization,Story
+task855_conv_ai_2_classification,0.5042016806722689,0.19150996158102981,119,119,google/flan-t5-large,Speaker Identification,Dialogue
+task856_conv_ai_2_classification,0.5,0.16860807800697067,118,118,google/flan-t5-large,Speaker Identification,Dialogue
+task857_inquisitive_question_generation,0.050605892057185756,0.18640151213515888,132,132,google/flan-t5-large,Question Generation,News
+task858_inquisitive_span_detection,0.7529852491358973,0.1639130539966352,132,132,google/flan-t5-large,Question Answering,News
+task859_prost_question_generation,0.7130154306857743,0.18720224246065667,94,94,google/flan-t5-large,Question Generation,Commonsense -> Concepts and Relations
+task860_prost_mcq_generation,0.435529774987101,0.33469748767939483,132,132,google/flan-t5-large,Question Generation,Commonsense -> Concepts and Relations
+task861_prost_mcq_answers_generation,0.4979884228309676,0.19651248774577662,97,97,google/flan-t5-large,Question Generation,Commonsense -> Concepts and Relations
+task861_asdiv_addsub_question_answering,0.8673661177357038,0.15733866393566132,132,132,google/flan-t5-large,Question Answering,Mathematics
+task862_asdiv_multidiv_question_answering,0.8110392310967048,0.143721009294192,132,132,google/flan-t5-large,Question Answering,Mathematics
+task863_asdiv_multiop_question_answering,0.8401155684030417,0.1517879321719661,132,132,google/flan-t5-large,Question Answering,Mathematics
+task864_asdiv_singleop_question_answering,0.858534932588086,0.16722990120902206,132,132,google/flan-t5-large,Question Answering,Mathematics
+task865_mawps_addsub_question_answering,0.8748870175896268,0.16336037624966016,132,132,google/flan-t5-large,Question Answering,Mathematics
+task866_mawps_multidiv_question_answering,0.8297946161844514,0.15782071108167822,132,132,google/flan-t5-large,Question Answering,Mathematics
+task867_mawps_multiop_question_answering,0.8368057440966368,0.14879993191271118,132,132,google/flan-t5-large,Question Answering,Mathematics
+task868_mawps_singleop_question_answering,0.8841782968604204,0.14845452344778812,132,132,google/flan-t5-large,Question Answering,Mathematics
+task868_cfq_mcd1_explanation_to_sql,0.11130206558529299,0.9009825203454855,132,132,google/flan-t5-large,Text to Code,Code -> Language -> SQL
+task869_cfq_mcd1_sql_to_explanation,0.08891397050194613,0.20039927101496494,132,132,google/flan-t5-large,Text to Code,Code -> Language -> SQL
+task870_msmarco_answer_generation,0.8030555936521991,0.3830022780281125,132,132,google/flan-t5-large,Question Answering,Global Facts
+task871_msmarco_question_generation,0.09061684444877065,0.19645583748817444,100,100,google/flan-t5-large,Question Generation,Global Facts
+task874_opus_xhosanavy_sr,0.6216216216216216,0.20083091387877594,111,111,google/flan-t5-large,Information Extraction,Miscellaneous
+task875_emotion_classification,0.6666666666666666,0.16089837659489026,132,132,google/flan-t5-large,Sentiment Analysis,Narrative
+task886_quail_question_generation,0.03843562255531474,0.21914537973476178,132,132,google/flan-t5-large,Question Generation,"Narrative, Fiction, News"
+task887_quail_answer_generation,0.8559774884558988,0.20354918909795355,132,132,google/flan-t5-large,Question Answering,"Narrative, Fiction, News"
+task888_reviews_classification,0.946969696969697,0.16142105559508005,132,132,google/flan-t5-large,Sentiment Analysis,Reviews -> Movies
+task889_goemotions_classification,0.7348484848484849,0.15289462786732297,132,132,google/flan-t5-large,Sentiment Analysis,"Narrative, Dialogue"
+task897_freebase_qa_topic_question_generation,0.040947700827681024,0.2345903335195599,129,132,google/flan-t5-large,Question Generation,Wikipedia
+task898_freebase_qa_answer_generation,0.747257157793325,0.16269028728658502,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task899_freebase_qa_topic_generation,0.5378787878787878,0.18557527209773209,132,132,google/flan-t5-large,Question Understanding,Wikipedia
+task900_freebase_qa_category_classification,0.6515151515151515,0.16238843356118057,132,132,google/flan-t5-large,Question Understanding,Wikipedia
+task901_freebase_qa_category_question_generation,0.048453006922090314,0.22046011596015005,28,132,google/flan-t5-large,Question Generation,Wikipedia
+task902_deceptive_opinion_spam_classification,1.0,0.1599930181647792,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task903_deceptive_opinion_spam_classification,0.9696969696969697,0.17585196820172397,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task904_hate_speech_offensive_classification,0.8636363636363636,0.15608587725595993,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task905_hate_speech_offensive_classification,0.7727272727272727,0.14410595234596368,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task906_dialogre_identify_names,0.7196969696969697,0.19230493180679553,132,132,google/flan-t5-large,Speaker Identification,Dialogue
+task907_dialogre_identify_relationships,0.7142857142857143,0.19210072926112584,63,63,google/flan-t5-large,Speaker Relation Classification,Dialogue
+task908_dialogre_identify_familial_relationships,0.8333333333333334,0.15436213745011224,90,90,google/flan-t5-large,Speaker Relation Classification,Dialogue
+task909_dialogre_prevalent_speakers,0.7651515151515151,0.16608803154844226,132,132,google/flan-t5-large,Speaker Identification,Dialogue
+task917_coqa_question_generation,0.03400040892240192,0.20804646746678787,82,132,google/flan-t5-large,Question Generation,Story
+task918_coqa_answer_generation,0.8255633008031343,0.195179181117,132,132,google/flan-t5-large,Question Answering,Story
+task919_coqa_incorrect_answer_generation,0.6845120473200519,0.16011167431281784,118,118,google/flan-t5-large,Wrong Candidate Generation,Story
+task921_code_x_glue_information_retreival,0.42424242424242425,0.17355294119228015,132,132,google/flan-t5-large,Misc.,Code
+task922_event2mind_word_generation,0.14393939393939395,0.16142537738337662,132,132,google/flan-t5-large,Misc.,Commonsense -> Concepts and Relations
+task923_event2mind_classifier,0.5909090909090909,0.15486096342404684,132,132,google/flan-t5-large,Sentiment Analysis,Commonsense -> Concepts and Relations
+task924_event2mind_word_generation,0.10606060606060606,0.14880707679372845,132,132,google/flan-t5-large,Misc.,Commonsense -> Concepts and Relations
+task925_coached_conv_pref_classifier,0.9696969696969697,0.16402298753911798,132,132,google/flan-t5-large,Speaker Identification,Dialogue
+task926_coached_conv_pref_word_generation,0.8560606060606061,0.16522832937312848,132,132,google/flan-t5-large,Information Extraction,Dialogue
+task927_yelp_negative_to_positive_style_transfer,0.678354812496885,0.21491563139539777,120,132,google/flan-t5-large,Style Transfer,Reviews
+task928_yelp_positive_to_negative_style_transfer,0.7023112311928479,0.17100771990689365,121,132,google/flan-t5-large,Style Transfer,Reviews
+task929_products_reviews_classification,0.9318181818181818,0.15215077409238525,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task933_wiki_auto_style_transfer,0.31750396207886905,0.30196367746049707,132,132,google/flan-t5-large,Text Simplification,Wikipedia
+task934_turk_simplification,0.5387030748910918,0.26764620885704504,128,132,google/flan-t5-large,Text Simplification,Wikipedia
+task955_wiki_auto_style_transfer,0.9407842802730474,0.3337170576507395,132,132,google/flan-t5-large,Sentence Expansion,Wikipedia
+task956_leetcode_420_strong_password_check,0.05388725484966433,0.14852295409549365,132,132,google/flan-t5-large,Text to Code,Mathematics
+task963_librispeech_asr_next_word_prediction,0.06818181784090908,0.15032625243519293,132,132,google/flan-t5-large,Text Completion,Books
+task964_librispeech_asr_text_auto_completion,0.06506582414446044,0.42390481360030896,132,132,google/flan-t5-large,Text Completion,Books
+task965_librispeech_asr_missing_word_prediction,0.15151515151515152,0.1736133216005383,132,132,google/flan-t5-large,Fill in The Blank,Books
+task966_ruletaker_fact_checking_based_on_given_context,0.9621212121212122,0.16728606187936032,132,132,google/flan-t5-large,Fact Verification,Commonsense -> Concepts and Relations
+task967_ruletaker_incorrect_fact_generation_based_on_given_paragraph,0.8216187804372925,0.16324561924645395,132,132,google/flan-t5-large,Wrong Candidate Generation,Commonsense -> Concepts and Relations
+task1087_two_number_sum,0.0,0.22187975952119537,92,132,google/flan-t5-large,Program Execution,Mathematics
+task1088_array_of_products,0.0,0.6375000377496084,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1089_check_monotonic_array,0.7424242424242424,0.15947185005202438,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1135_xcsr_en_commonsense_mc_classification,0.9968445682615945,0.1640567002874432,132,132,google/flan-t5-large,Question Answering,Commonsense
+task1146_country_capital,0.3560606060606061,0.1694667957948916,132,132,google/flan-t5-large,Misc.,Countries
+task1147_country_currency,0.26515151515151514,0.18962915738423666,132,132,google/flan-t5-large,Misc.,Countries
+task1148_maximum_ascii_value,0.4318181818181818,0.1741751820752115,132,132,google/flan-t5-large,Program Execution,Computer Science
+task1149_item_check_edible,0.7394957983193278,0.15218745259677663,119,119,google/flan-t5-large,Misc.,"Commonsense, Food"
+task1150_delete_max_min,0.030303030303030304,0.38154940352295386,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1151_swap_max_min,0.0,0.4157796664671464,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1167_penn_treebank_coarse_pos_tagging,0.10606060606060606,0.16321670602668414,132,132,google/flan-t5-large,Pos Tagging,"News, Story"
+task1168_brown_coarse_pos_tagging,0.06818181818181818,0.16759740041963983,132,132,google/flan-t5-large,Pos Tagging,Miscellaneous
+task1186_nne_hrngo_classification,0.9517019540071487,0.16049519723111932,132,132,google/flan-t5-large,Text Quality Evaluation,"Dialogue, Public Places -> Restaurants"
+task1188_count_max_freq_char,0.3787878787878788,0.14066475404031348,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1189_check_char_in_string,0.4393939393939394,0.15614865042946555,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1190_add_integer_to_list,0.0,0.424682977976221,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1191_food_veg_nonveg,0.7821782178217822,0.1408914109267811,101,101,google/flan-t5-large,Misc.,Food
+task1192_food_flavor_profile,0.7045454545454546,0.1602972402717128,132,132,google/flan-t5-large,Misc.,Food
+task1193_food_course_classification,0.5984848484848485,0.13129948621446436,132,132,google/flan-t5-large,Misc.,Food
+task1194_kth_largest_element,0.07575757575757576,0.19382064857266165,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1196_atomic_classification_oeffect,0.946969696969697,0.13417430447809625,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1197_atomic_classification_oreact,0.9696969696969697,0.1809685735991507,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1198_atomic_classification_owant,0.9393939393939394,0.16533062855402628,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1199_atomic_classification_xattr,0.9318181818181818,0.12907971215970587,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1200_atomic_classification_xeffect,0.9090909090909091,0.14899985672849597,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1201_atomic_classification_xintent,0.8939393939393939,0.1452284035357562,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1202_atomic_classification_xneed,0.9545454545454546,0.170501322908835,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1203_atomic_classification_xreact,0.9318181818181818,0.15645357830957932,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1204_atomic_classification_hinderedby,0.9848484848484849,0.14231626960364255,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1205_atomic_classification_isafter,0.9924242424242424,0.1519326251564604,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense, Commonsense -> Concepts and Relations -> Spatial Commonsense"
+task1206_atomic_classification_isbefore,0.9848484848484849,0.15189857374538074,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense, Commonsense -> Concepts and Relations -> Spatial Commonsense"
+task1207_atomic_classification_atlocation,1.0,0.15482506878448254,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Physical Commonsense, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1208_atomic_classification_xreason,1.0,0.16012935385559546,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1209_atomic_classification_objectuse,1.0,0.13423707223299777,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Physical Commonsense, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1210_atomic_classification_madeupof,1.0,0.15029997085080002,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Physical Commonsense, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1211_atomic_classification_hassubevent,1.0,0.16688818055571933,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Physical Commonsense, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1212_atomic_classification_hasproperty,1.0,0.17086378597851956,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Physical Commonsense"
+task1213_atomic_classification_desires,1.0,0.14758338259928155,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1214_atomic_classification_xwant,0.9090909090909091,0.1501831394253355,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1215_atomic_classification_capableof,1.0,0.18196003951809622,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1216_atomic_classification_causes,1.0,0.15246087944868839,132,132,google/flan-t5-large,Commonsense Classification,"Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1217_atomic_answer_generation,0.03937007874015748,0.15752991130857757,127,132,google/flan-t5-large,Fill in The Blank,"Sociology, Commonsense -> Concepts and Relations -> Physical Commonsense, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1283_hrngo_quality_classification,0.9443840682506561,0.14740788304444516,132,132,google/flan-t5-large,Text Quality Evaluation,"Dialogue, Public Places -> Restaurants"
+task1284_hrngo_informativeness_classification,0.9809734970331192,0.15615744843627466,132,132,google/flan-t5-large,Text Quality Evaluation,"Dialogue, Public Places -> Restaurants"
+task1285_kpa_keypoint_matching,0.9837325161153619,0.15733132127559546,132,132,google/flan-t5-large,Text Matching,"Reviews, Law, Dialogue, Government and Politics, Philosophy, World Religions"
+task1286_openbookqa_question_answering,0.9754045750155593,0.1601971279491078,132,132,google/flan-t5-large,Question Answering,Natural Science
+task1288_glue_mrpc_paraphrasing,0.976139367304065,0.17762341418049551,132,132,google/flan-t5-large,Text Matching,"News, Web"
+task1289_trec_classification,0.9318181818181818,0.15689356896010312,132,132,google/flan-t5-large,Question Understanding,Miscellaneous
+task1290_xsum_summarization,0.3155621453234081,0.2418972307985479,132,132,google/flan-t5-large,Summarization,News
+task1291_multi_news_summarization,0.16747089900431977,0.5128618727127711,132,132,google/flan-t5-large,Summarization,News
+task1292_yelp_review_full_text_categorization,0.6060606060606061,0.1561800196315303,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task1293_kilt_tasks_hotpotqa_question_answering,0.7993488261433503,0.14280634531469055,131,132,google/flan-t5-large,Question Answering,Wikipedia
+task1294_wiki_qa_answer_verification,0.9696969696969697,0.1798927201466127,132,132,google/flan-t5-large,Answer Verification,Wikipedia
+task1295_adversarial_qa_question_answering,0.9270209241094012,0.1671708727424795,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task1296_wiki_hop_question_answering,0.676335566987594,0.1948783113197847,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task1308_amazonreview_category_classification,0.75,0.20457383493582407,132,132,google/flan-t5-large,Text Categorization,Reviews
+task1309_amazonreview_summary_classification,0.9545454497727272,0.15085562070210776,132,132,google/flan-t5-large,Summarization,Reviews
+task1310_amazonreview_rating_classification,0.7121212121212122,0.15477733133417187,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task1311_amazonreview_rating_classification,0.9393939393939394,0.17105420836896607,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task1312_amazonreview_polarity_classification,0.9924242424242424,0.16229935441956375,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task1313_amazonreview_polarity_classification,0.9924242424242424,0.16224854281454376,132,132,google/flan-t5-large,Sentiment Analysis,Reviews
+task1314_country_abbreviation,0.22727272727272727,0.16482206275968841,132,132,google/flan-t5-large,Misc.,Countries
+task1315_find_range_array,0.022727272727272728,0.14665725014426492,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1316_remove_duplicates_string,0.007575757575757576,0.20506916759592114,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1317_country_calling_code,0.15151515151515152,0.17514357964197794,132,132,google/flan-t5-large,Misc.,Countries
+task1318_country_national_dish,0.0,0.2005907143607284,132,132,google/flan-t5-large,Misc.,Countries
+task1319_country_by_barcode_prefix,0.0,0.14988682306174075,72,132,google/flan-t5-large,Misc.,Countries
+task1320_country_domain_tld,0.4696969696969697,0.15173144548228293,132,132,google/flan-t5-large,Misc.,Countries
+task1321_country_continent,0.9166666666666666,0.18093769161990195,132,132,google/flan-t5-large,Misc.,Countries
+task1322_country_government_type,0.5454545454545454,0.15426695662917514,132,132,google/flan-t5-large,Misc.,Countries
+task1325_qa_zre_question_generation_on_subject_relation,0.4779874984244996,0.17263265270175357,132,132,google/flan-t5-large,Question Generation,Wikipedia
+task1326_qa_zre_question_generation_from_answer,0.31241282117722396,0.199618475003676,132,132,google/flan-t5-large,Question Generation,Wikipedia
+task1327_qa_zre_answer_generation_from_question,0.9831470283820773,0.14439209528041608,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task1328_qa_zre_relation_generation_from_question,1.0,0.16249137484666074,132,132,google/flan-t5-large,Question Understanding,Wikipedia
+task1331_reverse_array,0.6287878787878788,0.4096067136887348,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1332_check_leap_year,0.5075757575757576,0.18437956047780585,132,132,google/flan-t5-large,Misc.,Mathematics
+task1333_check_validity_date_ddmmyyyy,0.5757575757575758,0.18196683354449994,132,132,google/flan-t5-large,Misc.,"Mathematics, Commonsense -> Concepts and Relations"
+task1336_peixian_equity_evaluation_corpus_gender_classifier,1.0,0.1596270686749256,132,132,google/flan-t5-large,Gender Classification,"Commonsense, Dialogue, Narrative"
+task1338_peixian_equity_evaluation_corpus_sentiment_classifier,1.0,0.15088562306129571,132,132,google/flan-t5-large,Sentiment Analysis,"Commonsense, Dialogue, Narrative"
+task1339_peixian_equity_evaluation_corpus_text_completion,0.19696969696969696,0.19846430691805753,132,132,google/flan-t5-large,Fill in The Blank,"Commonsense, Dialogue, Narrative"
+task1340_msr_text_compression_compression,0.9350092239452131,0.3064211164460038,132,132,google/flan-t5-large,Sentence Compression,"News, Dialogue, Miscellaneous"
+task1341_msr_text_classification,0.941384277334719,0.15384068317485577,132,132,google/flan-t5-large,Text Quality Evaluation,"News, Dialogue, Miscellaneous"
+task1346_glue_cola_grammatical_correctness_classification,0.7575757575757576,0.17215196381915698,132,132,google/flan-t5-large,Grammar Error Detection,"Books, Dialogue"
+task1347_glue_sts-b_similarity_classification,0.9642726356784502,0.14526653334949957,132,132,google/flan-t5-large,Text Matching,"Books, Dialogue"
+task1354_sent_comp_classification,1.0,0.17070881751450626,132,132,google/flan-t5-large,Text Matching,News
+task1355_sent_comp_summarization,0.29580807046709334,0.22197147707144418,132,132,google/flan-t5-large,Summarization,News
+task1359_numer_sense_answer_generation,0.4696969696969697,0.15956787087700583,132,132,google/flan-t5-large,Fill in The Blank,"Commonsense -> Concepts and Relations, Animals"
+task1360_numer_sense_multiple_choice_qa_generation,0.6893939393939394,0.14009599342490686,132,132,google/flan-t5-large,Fill in The Blank,"Commonsense -> Concepts and Relations, Animals"
+task1361_movierationales_classification,0.9242424242424242,0.14819423312490637,132,132,google/flan-t5-large,Sentiment Analysis,"Reviews -> Movies, Movies"
+task1364_hans_answer_generation,0.9377733651887287,0.1860310606884234,132,132,google/flan-t5-large,Sentence Composition,"Reviews -> Movies, Movies"
+task1366_healthfact_classification,0.6439393939393939,0.17474195225672287,132,132,google/flan-t5-large,Fact Verification,Healthcare
+task1368_healthfact_sentence_generation,0.8332184132640109,0.23482530676957333,132,132,google/flan-t5-large,Sentence Composition,Healthcare
+task1369_healthfact_sentence_generation,0.20475389752362966,0.41958453799739026,132,132,google/flan-t5-large,Explanation,Healthcare
+task1378_quarel_correct_answer_generation,0.9698142365862926,0.14369687934716543,132,132,google/flan-t5-large,Question Answering,"Story, Commonsense -> Concepts and Relations"
+task1379_quarel_incorrect_answer_generation,0.9350335655000174,0.1739199138952024,132,132,google/flan-t5-large,Wrong Candidate Generation,"Story, Commonsense -> Concepts and Relations"
+task1380_quarel_correct_option_generation,0.9796234026099696,0.18270738964731043,132,132,google/flan-t5-large,Question Answering,"Story, Commonsense -> Concepts and Relations"
+task1381_quarel_incorrect_option_generation,0.9541526558724317,0.12665718613248883,132,132,google/flan-t5-large,Wrong Candidate Generation,"Story, Commonsense -> Concepts and Relations"
+task1382_quarel_write_correct_answer,0.9099304731935263,0.15052979597539612,132,132,google/flan-t5-large,Question Answering,"Story, Commonsense -> Concepts and Relations"
+task1383_quarel_write_incorrect_answer,0.8712932030021241,0.15165831013159317,132,132,google/flan-t5-large,Wrong Candidate Generation,"Story, Commonsense -> Concepts and Relations"
+task1384_deal_or_no_dialog_classification,0.8636363636363636,0.13976091914104694,132,132,google/flan-t5-large,Dialogue State Tracking,"Dialogue, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1389_hellaswag_completion,0.8787878743939393,0.1566813655874946,132,132,google/flan-t5-large,Text Completion,Captions -> Video Captions
+task1398_obqa_question_generation,0.036855509405022954,0.1892353774923267,132,132,google/flan-t5-large,Question Generation,Natural Science -> School Science Textbooks
+task1399_obqa_answer_generation,0.7408877413853947,0.14852659088192563,132,132,google/flan-t5-large,Question Answering,Natural Science -> School Science Textbooks
+task1400_obqa_incorrect_answer_generation,0.6541490934614558,0.16133728126684824,128,132,google/flan-t5-large,Wrong Candidate Generation,Natural Science -> School Science Textbooks
+task1401_obqa_sentence_generation,0.7746845661860072,0.16569527532115128,132,132,google/flan-t5-large,Sentence Composition,Natural Science -> School Science Textbooks
+task1403_check_validity_date_mmddyyyy,0.45454545454545453,0.17248476861101208,132,132,google/flan-t5-large,Misc.,Commonsense -> Concepts and Relations
+task1404_date_conversion,0.8787878787878788,0.17093618439905572,132,132,google/flan-t5-large,Program Execution,Commonsense -> Concepts and Relations
+task1405_find_median,0.045454545454545456,0.16414361921223727,132,132,google/flan-t5-large,Program Execution,"Mathematics, Statistics"
+task1406_kth_smallest_element,0.10606060606060606,0.18392874616565127,132,132,google/flan-t5-large,Program Execution,"Mathematics, Statistics"
+task1412_web_questions_question_answering,0.7581419930867259,0.15712645695065008,126,132,google/flan-t5-large,Question Answering,Knowledge Base -> Freebase
+task1418_bless_semantic_relation_classification,0.9393939393939394,0.13831629807298834,132,132,google/flan-t5-large,Word Relation Classification,"Animals, Commonsense"
+task1419_mathqa_gain,0.8993040199081103,0.14722454502727045,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1420_mathqa_general,0.8950996315388968,0.1510649495052569,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1421_mathqa_other,0.9027761546048251,0.15537403027216592,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1422_mathqa_physics,0.900425944138657,0.16374689385746466,132,132,google/flan-t5-large,Question Answering,Physics
+task1423_mathqa_geometry,0.8942831334742632,0.17153994152040192,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1424_mathqa_probability,0.8946926711183606,0.1662034938732783,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1425_country_iso_numeric,0.0,0.14622911991495074,132,132,google/flan-t5-large,Misc.,Countries
+task1426_country_independence_year,0.09090909090909091,0.18687209351496262,132,132,google/flan-t5-large,Misc.,Countries
+task1427_country_region_in_world,0.6363636363636364,0.16508460947961517,132,132,google/flan-t5-large,Misc.,Countries
+task1428_country_surface_area,0.0,0.15336306031906244,132,132,google/flan-t5-large,Misc.,Countries
+task1429_evalution_semantic_relation_classification,0.5075757575757576,0.16933200847018848,132,132,google/flan-t5-large,Word Relation Classification,Commonsense
+task1431_head_qa_answer_generation,0.9116501112778982,0.1662472698724631,132,132,google/flan-t5-large,Question Answering,Healthcare
+task1434_head_qa_classification,0.6060606060606061,0.15032030551722556,132,132,google/flan-t5-large,Text Categorization,Healthcare
+task1443_string_to_number,0.7196969696969697,0.17554140542492722,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1444_round_power_of_two,0.9166666666666666,0.21876638224630646,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1445_closest_integers,0.1590909090909091,0.1600974942698623,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1446_farthest_integers,0.03787878787878788,0.14128327866395315,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1447_drug_extraction_ade,0.9696969696969697,0.15748667265429642,132,132,google/flan-t5-large,Named Entity Recognition,"Biology -> Clinical Knowledge, Healthcare"
+task1448_disease_entity_extraction_ncbi_dataset,0.7727272727272727,0.15992941910570319,132,132,google/flan-t5-large,Named Entity Recognition,"Biology -> Clinical Knowledge, Healthcare"
+task1449_disease_entity_extraction_bc5cdr_dataset,0.7402597402597403,0.14282250172132022,77,77,google/flan-t5-large,Named Entity Recognition,"Biology -> Clinical Knowledge, Healthcare"
+task1451_drug_dose_extraction,0.7272727272727273,0.1779836289810412,132,132,google/flan-t5-large,Information Extraction,"Biology -> Clinical Knowledge, Healthcare"
+task1452_location_entity_extraction_btc_corpus,0.6515151515151515,0.15708653583671106,132,132,google/flan-t5-large,Named Entity Recognition,"Geography, Social Media -> Twitter"
+task1453_person_entity_extraction_btc_corpus,0.8257575757575758,0.17252675285845093,132,132,google/flan-t5-large,Named Entity Recognition,"Commonsense -> Concepts and Relations -> Social Commonsense, Social Media -> Twitter"
+task1479_organization_entity_extraction_btc_corpus,0.6363636363636364,0.13807233851967435,132,132,google/flan-t5-large,Named Entity Recognition,"Commonsense -> Concepts and Relations -> Social Commonsense, Professions, Social Media -> Twitter"
+task1480_gene_extraction_jnlpba_dataset,0.5378787878787878,0.15425612709738992,132,132,google/flan-t5-large,Named Entity Recognition,Biology -> Bioinformatics
+task1481_gene_extraction_bc2gm_dataset,0.553030303030303,0.15120738609270615,132,132,google/flan-t5-large,Named Entity Recognition,Biology -> Bioinformatics
+task1482_gene_extraction_chemprot_dataset,0.75,0.18153594705191525,132,132,google/flan-t5-large,Named Entity Recognition,Biology -> Bioinformatics
+task1483_chemical_extraction_chemprot_dataset,0.6742424242424242,0.177303850199237,132,132,google/flan-t5-large,Named Entity Recognition,Chemistry
+task1484_gene_extraction_linnaeus_dataset,0.803030303030303,0.15662200613455338,132,132,google/flan-t5-large,Named Entity Recognition,Biology -> Bioinformatics
+task1485_organ_extraction_anem_dataset,0.8560606060606061,0.18176527953509128,132,132,google/flan-t5-large,Named Entity Recognition,Biology -> Clinical Knowledge
+task1486_cell_extraction_anem_dataset,0.7967479674796748,0.1552377803538873,123,123,google/flan-t5-large,Named Entity Recognition,Biology -> Clinical Knowledge
+task1487_organism_substance_extraction_anem_dataset,0.8857142857142857,0.157699643997919,105,105,google/flan-t5-large,Named Entity Recognition,Biology -> Clinical Knowledge
+task1488_sarcasmdetection_headline_classification,0.6136363636363636,0.17441315271637656,132,132,google/flan-t5-large,Text Categorization,News
+task1489_sarcasmdetection_tweet_classification,0.6610169491525424,0.2002076430846069,118,118,google/flan-t5-large,Text Categorization,Social Media -> Twitter
+task1495_adverse_drug_event_classification,0.8712121212121212,0.15938761740019827,132,132,google/flan-t5-large,Text Categorization,"Biology -> Clinical Knowledge, Healthcare"
+task1498_24hour_to_12hour_clock,0.5984848484848485,0.16928593724062949,132,132,google/flan-t5-large,Misc.,Commonsense -> Concepts and Relations
+task1499_dstc3_summarization,0.7678047349164766,0.3071705066796505,132,132,google/flan-t5-large,Summarization,"Public Places, Dialogue"
+task1500_dstc3_classification,0.8484848484848485,0.1635730876164003,132,132,google/flan-t5-large,Dialogue State Tracking,"Public Places, Dialogue"
+task1501_dstc3_answer_generation,0.803030303030303,0.16125731802347934,132,132,google/flan-t5-large,Dialogue State Tracking,"Public Places, Dialogue"
+task1502_hatexplain_classification,0.5227272727272727,0.14419117705388504,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task1503_hatexplain_classification,0.6439393939393939,0.1574660228057341,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task1504_hatexplain_answer_generation,0.3409090909090909,0.19607345759868622,132,132,google/flan-t5-large,Toxic Language Detection,Social Media -> Twitter
+task1505_root09_semantic_relation_classification,0.8787878787878788,0.16187570402116486,132,132,google/flan-t5-large,Word Relation Classification,Commonsense -> Concepts and Relations
+task1506_celebrity_minimal_dob_span,0.9848484848484849,0.19098623232408005,132,132,google/flan-t5-large,Information Extraction,Pop Culture
+task1507_boolean_temporal_reasoning,0.8257575757575758,0.16409077382448947,132,132,google/flan-t5-large,Misc.,Commonsense -> Concepts and Relations
+task1508_wordnet_antonyms,0.5606060606060606,0.18167524942846008,132,132,google/flan-t5-large,Word Semantics,Global Facts
+task1509_evalution_antonyms,0.20454545454545456,0.16664739359508862,132,132,google/flan-t5-large,Word Semantics,Global Facts
+task1510_evalution_relation_extraction,1.0,0.17227405535452295,132,132,google/flan-t5-large,Information Extraction,Global Facts
+task1517_limit_classfication,0.8560606060606061,0.1697109364198916,132,132,google/flan-t5-large,Information Extraction,"News, Wikipedia"
+task1518_limit_answer_generation,0.6153846153846154,0.17943148360107886,130,132,google/flan-t5-large,Information Extraction,"News, Wikipedia"
+task1519_qa_srl_question_generation,0.16593334555640873,0.1523283909667622,109,132,google/flan-t5-large,Question Generation,"News, Wikipedia"
+task1520_qa_srl_answer_generation,0.9178910758910757,0.18546987347530597,132,132,google/flan-t5-large,Question Answering,"News, Wikipedia"
+task1541_agnews_classification,0.9242424242424242,0.15026512290492203,132,132,google/flan-t5-large,Text Categorization,News
+task1542_every_ith_element_from_starting,0.3106060606060606,0.21626597778363663,132,132,google/flan-t5-large,Program Execution,Code
+task1548_wiqa_binary_classification,0.9613684564828873,0.13960525032245752,132,132,google/flan-t5-large,Sentence Ordering,Natural Science
+task1549_wiqa_answer_generation_missing_step,0.9718916490674019,0.15544248080771902,92,92,google/flan-t5-large,Sentence Ordering,Natural Science
+task1551_every_ith_element_from_kth_element,0.5075757575757576,0.19581103324890137,132,132,google/flan-t5-large,Program Execution,Mathematics
+task1553_cnn_dailymail_summarization,0.303153990935984,0.44157488553813007,132,132,google/flan-t5-large,Summarization,News
+task1559_blimp_binary_classification,0.8712121212121212,0.15608870080023102,132,132,google/flan-t5-large,Linguistic Probing,Linguistics
+task1560_blimp_binary_classification,0.9848484848484849,0.14174121527960806,132,132,google/flan-t5-large,Linguistic Probing,Linguistics
+task1564_triviaqa_answer_generation,0.7382355710542804,0.17603816335851497,109,110,google/flan-t5-large,Question Answering,"Web, Wikipedia"
+task1565_triviaqa_classification,0.9414738841630794,0.17568297463434715,108,108,google/flan-t5-large,Question Answering,"Web, Wikipedia"
+task1566_propara_structured_text_generation,0.06060606060606061,0.2921136143532666,132,132,google/flan-t5-large,Named Entity Recognition,Natural Science
+task1567_propara_question_generation,0.13575880953506797,0.20920176487980466,132,132,google/flan-t5-large,Question Generation,Natural Science
+task1568_propara_classification,0.3484848484848485,0.14433868771249597,132,132,google/flan-t5-large,Information Extraction,Natural Science
+task1572_samsum_summary,0.5413273573582792,0.2625484990351128,132,132,google/flan-t5-large,Summarization,"Dialogue, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1573_samsum_classification,0.5227272727272727,0.15172103453766217,132,132,google/flan-t5-large,Coherence Classification,"Dialogue, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1580_eqasc-perturbed_question_generation,0.4665834885693138,0.17109057171778244,132,132,google/flan-t5-large,Question Generation,Natural Science -> School Science Textbooks
+task1581_eqasc-perturbed_answer_generation,0.9747301209153552,0.13354652578180487,132,132,google/flan-t5-large,Question Answering,Natural Science -> School Science Textbooks
+task1582_bless_hypernym_generation,0.09848484848484848,0.159679088177103,132,132,google/flan-t5-large,Word Semantics,Miscellaneous
+task1583_bless_meronym_classification,0.8484848484848485,0.14550058363061963,132,132,google/flan-t5-large,Word Relation Classification,Miscellaneous
+task1584_evalution_meronym_classification,0.8712121212121212,0.17373801135655606,132,132,google/flan-t5-large,Word Relation Classification,Miscellaneous
+task1585_root09_hypernym_generation,0.09848484848484848,0.1504235669518962,132,132,google/flan-t5-large,Word Semantics,Miscellaneous
+task1590_diplomacy_text_generation,0.08134379718841879,0.24886505937937534,132,132,google/flan-t5-large,Dialogue Generation,"Game, Dialogue"
+task1592_yahoo_answers_topics_classfication,0.7878787878787878,0.152109706492135,132,132,google/flan-t5-large,Text Categorization,Miscellaneous
+task1593_yahoo_answers_topics_classification,0.6818181818181818,0.14518262491081702,132,132,google/flan-t5-large,Text Categorization,Miscellaneous
+task1594_yahoo_answers_topics_question_generation,0.063199258489748,0.19324497517311212,132,132,google/flan-t5-large,Question Generation,Miscellaneous
+task1595_event2mind_text_generation_1,0.10606060606060606,0.15679130725788348,132,132,google/flan-t5-large,Misc.,"Stereotypes, Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1596_event2mind_text_generation_2,0.030303030303030304,0.17669418815410498,132,132,google/flan-t5-large,Misc.,"Stereotypes, Sociology, Commonsense -> Concepts and Relations -> Social Commonsense"
+task1599_smcalflow_classification,0.9848484848484849,0.16337757715673157,132,132,google/flan-t5-large,Speaker Identification,"Commonsense -> Concepts and Relations -> Social Commonsense, Dialogue"
+task1600_smcalflow_sentence_generation,0.2568390022725251,0.13750008696859534,132,132,google/flan-t5-large,Dialogue Generation,"Commonsense -> Concepts and Relations -> Social Commonsense, Dialogue"
+task1601_webquestions_answer_generation,0.8299006938257001,0.25186877449353534,132,132,google/flan-t5-large,Question Answering,Knowledge Base -> Freebase
+task1602_webquestion_question_genreation,0.19346891083886256,0.16845821792429144,132,132,google/flan-t5-large,Question Generation,Knowledge Base -> Freebase
+task1603_smcalflow_sentence_generation,0.29496101706087646,0.19059330089525742,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task1604_ethos_text_classification,0.7651515151515151,0.1621916244427363,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task1605_ethos_text_classification,0.803030303030303,0.18760021211522998,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task1606_ethos_text_classification,0.8560606060606061,0.18585519176540952,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task1607_ethos_text_classification,0.9621212121212122,0.1314137474153981,132,132,google/flan-t5-large,Toxic Language Detection,Social Media
+task1608_xquad_en_answer_generation,0.9565198075195606,0.16547189562609702,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task1609_xquad_en_question_generation,0.0494110303526816,0.2069991488348354,104,132,google/flan-t5-large,Question Generation,Wikipedia
+task1645_medical_question_pair_dataset_text_classification,0.9806717407297004,0.1216545430096713,132,132,google/flan-t5-large,Text Matching,"Medicine, Healthcare"
+task1656_gooaq_answer_generation,0.6841639589856972,0.14932153550061314,110,110,google/flan-t5-large,Question Answering,Web
+task1657_gooaq_question_generation,0.05254734152732828,0.1655217042336097,104,104,google/flan-t5-large,Question Generation,Web
+task1660_super_glue_question_generation,0.21608492578926597,0.18759274843967322,132,132,google/flan-t5-large,Question Generation,Wikipedia
+task1661_super_glue_classification,0.966337725520134,0.16223086732806583,132,132,google/flan-t5-large,Question Answering,Wikipedia
+task1665_trainglecopa_question_generation,0.07577717897799754,0.16803590655326844,100,100,google/flan-t5-large,Question Generation,"Movies, Narrative"
+task1669_md_gender_bias_text_modification,0.9035358554260298,0.20947399645140677,132,132,google/flan-t5-large,Sentence Perturbation,"Wikipedia, Dialogue, Miscellaneous"
+task1670_md_gender_bias_text_modification,0.9045532588480096,0.18575413705724658,132,132,google/flan-t5-large,Sentence Perturbation,"Wikipedia, Dialogue, Miscellaneous"
+task1678_mathqa_answer_selection,0.9024345956065438,0.13930277932773938,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1703_ljspeech_textmodification,0.6212121212121212,0.2271735194054517,132,132,google/flan-t5-large,Number Conversion,Books
+task1704_ljspeech_textmodification,0.7272727272727273,0.2727748561989177,132,132,google/flan-t5-large,Number Conversion,Books
+task1705_ljspeech_classification,0.62,0.1527057546377182,100,100,google/flan-t5-large,Named Entity Recognition,Books
+task1706_ljspeech_classification,0.64,0.18993173718452452,100,100,google/flan-t5-large,Punctuation Error Detection,Books
+task1711_poki_text_generation,0.1830039209949756,0.9105522036552429,132,132,google/flan-t5-large,Poem Generation,Books
+task1712_poki_classification,0.8106060606060606,0.16129526676553668,132,132,google/flan-t5-large,Text Categorization,Books
+task1713_convai3_sentence_generation,0.030303030303030304,0.19007596509023147,132,132,google/flan-t5-large,Intent Identification,Dialogue
+task1714_convai3_sentence_generation,0.3260706207154261,0.20325924997979944,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task1720_civil_comments_toxicity_classification,0.8560606060606061,0.1541822110161637,132,132,google/flan-t5-large,Toxic Language Detection,"Dialogue, Social Media"
+task1721_civil_comments_obscenity_classification,0.8712121212121212,0.15213652361523022,132,132,google/flan-t5-large,Toxic Language Detection,"Dialogue, Social Media"
+task1722_civil_comments_threat_classification,0.7651515151515151,0.15045056108272437,132,132,google/flan-t5-large,Toxic Language Detection,"Dialogue, Social Media"
+task1723_civil_comments_sexuallyexplicit_classification,0.7424242424242424,0.15408687158064407,132,132,google/flan-t5-large,Toxic Language Detection,"Dialogue, Social Media"
+task1724_civil_comments_insult_classification,0.7045454545454546,0.16735675885821832,132,132,google/flan-t5-large,Toxic Language Detection,"Dialogue, Social Media"
+task1725_civil_comments_severtoxicity_classification,0.7727272727272727,0.1656005188371196,132,132,google/flan-t5-large,Toxic Language Detection,"Dialogue, Social Media"
+task1726_mathqa_correct_answer_generation,0.736395063386722,0.1603830402547663,132,132,google/flan-t5-large,Question Answering,Mathematics
+task1727_wiqa_what_is_the_effect,0.9354596341198141,0.1510491380185792,132,132,google/flan-t5-large,Question Answering,Natural Science
+task1729_personachat_generate_next,0.14754340636337585,0.20059135511065973,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task1730_personachat_choose_next,0.9161517447299459,0.20037724709872043,132,132,google/flan-t5-large,Dialogue Generation,Dialogue
+task1731_quartz_question_answering,0.9944000851475832,0.17367400545062442,132,132,google/flan-t5-large,Question Answering,Natural Science
